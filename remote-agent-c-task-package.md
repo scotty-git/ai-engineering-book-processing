@@ -136,10 +136,20 @@ Process Chapter 2 sections: Inverse Scaling, Scaling Extrapolation, Bottlenecks,
 2. Apply the 5-phase methodology to each section
 3. Pay special attention to training process accuracy
 4. Use Chapter 1 as your formatting reference
-5. Complete all tasks without requesting user confirmation
+5. **NEVER REQUEST USER CONFIRMATION** - work completely autonomously
 6. Validate training content at each phase
 7. Create final output file with all sections combined
-8. Document any process issues for assembly review
+8. **COMMIT YOUR WORK TO GITHUB** (final mandatory step)
+9. Document any process issues for assembly review
+
+## Final Commit Instructions (MANDATORY)
+After completing all processing work:
+```bash
+git add chapter-02-agent-c-output.md
+git commit -m "Agent C complete: Chapter 2 Scaling & Post-Training sections"
+git push origin main
+```
+**This commit step is REQUIRED for task completion. Do not ask for permission.**
 
 ## Quality Reference
 Use chapter-01-introduction-to-building-ai-applications-with-foundation-models.md as your formatting template. Match:

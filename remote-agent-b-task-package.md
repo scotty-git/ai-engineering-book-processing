@@ -128,10 +128,20 @@ Process Chapter 2 sections: Model Architecture Overview, Transformer Architectur
 2. Apply the 5-phase methodology to each section
 3. Pay special attention to technical accuracy
 4. Use Chapter 1 as your formatting reference
-5. Complete all tasks without requesting user confirmation
+5. **NEVER REQUEST USER CONFIRMATION** - work completely autonomously
 6. Validate technical content at each phase
 7. Create final output file with all sections combined
-8. Document any technical issues for assembly review
+8. **COMMIT YOUR WORK TO GITHUB** (final mandatory step)
+9. Document any technical issues for assembly review
+
+## Final Commit Instructions (MANDATORY)
+After completing all processing work:
+```bash
+git add chapter-02-agent-b-output.md
+git commit -m "Agent B complete: Chapter 2 Model Architecture sections"
+git push origin main
+```
+**This commit step is REQUIRED for task completion. Do not ask for permission.**
 
 ## Quality Reference
 Use chapter-01-introduction-to-building-ai-applications-with-foundation-models.md as your formatting template. Match:

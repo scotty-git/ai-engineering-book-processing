@@ -46,7 +46,7 @@ Each remote agent receives:
 
 ### Phase 2: Parallel Processing (Remote Agents)
 **Agent A**: Processes H3 sections 1-3
-**Agent B**: Processes H3 sections 4-6  
+**Agent B**: Processes H3 sections 4-6
 **Agent C**: Processes H3 sections 7-9
 **Agent D**: Processes H3 sections 10+ (if needed)
 
@@ -55,7 +55,14 @@ Each agent:
 2. Applies 5-phase methodology to their sections
 3. Produces clean Markdown output
 4. Validates quality against standards
-5. Reports completion with output
+5. **COMMITS WORK TO GITHUB REPO** (critical final step)
+6. Reports completion with commit confirmation
+
+**CRITICAL: NO USER CONFIRMATION REQUIRED**
+- Agents must work completely autonomously from start to finish
+- All necessary information is provided in task packages
+- Agents should NEVER ask for user feedback or confirmation
+- Complete all tasks and commit results without interruption
 
 ### Phase 3: Assembly & Validation (Human)
 1. **Collect outputs** from all agents
@@ -91,9 +98,11 @@ Each agent:
 
 ## Deliverables
 1. **Processed sections** in clean Markdown format
-2. **Footnote collection** (list of all footnotes found)
-3. **Quality validation report** (checklist completion)
-4. **Processing notes** (any issues or special cases encountered)
+2. **Output file committed to GitHub repo** (chapter-02-agent-[X]-output.md)
+3. **Footnote collection** (list of all footnotes found)
+4. **Quality validation report** (checklist completion)
+5. **Git commit confirmation** (proof of autonomous completion)
+6. **Processing notes** (any issues or special cases encountered)
 ```
 
 ## Coordination Mechanisms

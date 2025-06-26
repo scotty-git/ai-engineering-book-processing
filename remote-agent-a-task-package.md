@@ -134,10 +134,20 @@ Process Chapter 2 sections: Introduction, Training Data Overview, Multilingual M
 1. Work through each micro-task systematically
 2. Apply the 5-phase methodology to each section
 3. Use Chapter 1 as your formatting reference
-4. Complete all tasks without requesting user confirmation
+4. **NEVER REQUEST USER CONFIRMATION** - work completely autonomously
 5. Validate quality at each phase
 6. Create final output file with all sections combined
-7. Document any issues or special cases for assembly review
+7. **COMMIT YOUR WORK TO GITHUB** (final mandatory step)
+8. Document any issues or special cases for assembly review
+
+## Final Commit Instructions (MANDATORY)
+After completing all processing work:
+```bash
+git add chapter-02-agent-a-output.md
+git commit -m "Agent A complete: Chapter 2 Introduction & Training Data sections"
+git push origin main
+```
+**This commit step is REQUIRED for task completion. Do not ask for permission.**
 
 ## Quality Reference
 Use chapter-01-introduction-to-building-ai-applications-with-foundation-models.md as your formatting template. Match:
