@@ -1,0 +1,107 @@
+.navItem {
+  margin-bottom: 1px;
+}
+
+.navButton {
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-xs);
+  font-size: 13px; /* Fixed smaller size for navigation items */
+  line-height: var(--customization-line-height, var(--line-height-tight));
+  color: var(--customization-text-color, var(--color-text));
+  font-family: var(--customization-font-family, inherit);
+}
+
+.navButton:hover {
+  background-color: var(--customization-bg-secondary, var(--color-bg-alt));
+}
+
+.navButton.current {
+  background-color: var(--customization-accent-color, var(--color-accent));
+  color: white;
+}
+
+.navButton.current .childrenIndicator {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navTitle {
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.childrenIndicator {
+  font-size: 11px;
+  color: var(--customization-text-muted, var(--color-text-muted));
+  font-weight: normal;
+  flex-shrink: 0;
+  font-family: var(--customization-font-family, inherit);
+}
+
+/* Depth-based indentation */
+.depth0 {
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.depth1 {
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-left: calc(var(--spacing-md) + var(--spacing-md));
+}
+
+.depth2 {
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-left: calc(var(--spacing-md) + var(--spacing-md) * 2);
+}
+
+.depth3 {
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-left: calc(var(--spacing-md) + var(--spacing-md) * 3);
+}
+
+/* Level-based styling */
+.level1 {
+  font-weight: 600;
+  font-size: var(--customization-font-size, var(--font-size-sm));
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.level2 {
+  font-weight: 500;
+  font-size: var(--customization-font-size, var(--font-size-sm));
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.level3 {
+  font-weight: 400;
+  font-size: var(--customization-font-size, 13px);
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.level4 {
+  font-weight: 400;
+  font-size: var(--customization-font-size, 12px);
+  color: var(--customization-text-secondary, var(--color-text-light));
+}
+
+/* Hover states for different levels */
+.level1:hover {
+  font-weight: 600;
+}
+
+.level2:hover {
+  font-weight: 500;
+}
+
+.level3:hover,
+.level4:hover {
+  color: var(--customization-text-color, var(--color-text));
+}

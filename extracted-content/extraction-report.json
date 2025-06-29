@@ -1,0 +1,103 @@
+{
+  "extraction_date": "2025-06-29T12:20:44.239428",
+  "epub_source": "epub-source/AI Engineering (2).epub",
+  "output_directory": "extracted-content",
+  "statistics": {
+    "chapters_processed": 10,
+    "images_extracted": 162,
+    "figures_found": 0,
+    "tables_found": 0,
+    "code_blocks_found": 0,
+    "cross_refs_found": 0,
+    "errors": []
+  },
+  "directory_structure": {
+    "root": {
+      "directories": [
+        "images",
+        "chapters",
+        "assets"
+      ],
+      "files": 2,
+      "file_list": [
+        "extraction.log",
+        "extraction-report.json"
+      ]
+    },
+    "images": {
+      "directories": [],
+      "files": 162,
+      "file_list": [
+        "aien_0215.png",
+        "aien_0201.png",
+        "aien_0605.png",
+        "aien_0611.png",
+        "aien_0407.png",
+        "aien_0406.png",
+        "aien_0610.png",
+        "aien_0604.png",
+        "aien_0214.png",
+        "aien_0202.png"
+      ]
+    },
+    "chapters": {
+      "directories": [
+        "raw-html",
+        "structured",
+        "metadata"
+      ],
+      "files": 0,
+      "file_list": []
+    },
+    "chapters/raw-html": {
+      "directories": [],
+      "files": 10,
+      "file_list": [
+        "ch06.html",
+        "ch10.html",
+        "ch07.html",
+        "ch01.html",
+        "ch02.html",
+        "ch03.html",
+        "ch04.html",
+        "ch08.html",
+        "ch09.html",
+        "ch05.html"
+      ]
+    },
+    "chapters/structured": {
+      "directories": [],
+      "files": 10,
+      "file_list": [
+        "ch05.json",
+        "ch09.json",
+        "ch08.json",
+        "ch04.json",
+        "ch03.json",
+        "ch02.json",
+        "ch01.json",
+        "ch07.json",
+        "ch06.json",
+        "ch10.json"
+      ]
+    },
+    "chapters/metadata": {
+      "directories": [],
+      "files": 1,
+      "file_list": [
+        "book-metadata.json"
+      ]
+    },
+    "assets": {
+      "directories": [],
+      "files": 1,
+      "file_list": [
+        "image-manifest.json"
+      ]
+    }
+  },
+  "validation_summary": {
+    "total_errors": 0,
+    "extraction_successful": true
+  }
+}

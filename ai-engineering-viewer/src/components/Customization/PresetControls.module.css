@@ -1,0 +1,169 @@
+.presetsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.presetCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-2xl);
+  border: 2px solid var(--customization-border-color, var(--color-border));
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, 
+    var(--customization-bg-color, var(--color-bg)) 0%, 
+    color-mix(in srgb, var(--customization-bg-color, var(--color-bg)) 97%, var(--customization-accent-color, var(--color-accent)) 3%) 100%);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 180px;
+  justify-content: center;
+}
+
+.presetCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.1) 50%, 
+    transparent 100%);
+  transition: left 0.6s ease;
+}
+
+.presetCard:hover {
+  border-color: var(--customization-accent-color, var(--color-accent));
+  background: linear-gradient(135deg, 
+    var(--customization-accent-color, var(--color-accent)) 0%, 
+    color-mix(in srgb, var(--customization-accent-color, var(--color-accent)) 90%, black 10%) 100%);
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.3);
+}
+
+.presetCard:hover::before {
+  left: 100%;
+}
+
+.presetCard:active {
+  transform: translateY(-2px) scale(0.98);
+}
+
+.presetIcon {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  transition: all var(--transition-base);
+}
+
+.presetCard:hover .presetIcon {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.presetPreview {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+  color: var(--customization-text-color, var(--color-text));
+  transition: all var(--transition-base);
+  font-family: var(--customization-font-family, inherit);
+}
+
+.presetCard:hover .presetPreview {
+  color: white;
+  transform: scale(1.1);
+}
+
+.presetInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.presetName {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  color: var(--customization-text-color, var(--color-text));
+  transition: color var(--transition-base);
+  letter-spacing: 0.02em;
+}
+
+.presetCard:hover .presetName {
+  color: white;
+}
+
+.presetDescription {
+  font-size: var(--font-size-sm);
+  color: var(--customization-text-muted, var(--color-text-muted));
+  line-height: 1.4;
+  transition: color var(--transition-base);
+}
+
+.presetCard:hover .presetDescription {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.presetNote {
+  background: linear-gradient(135deg, 
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.05) 0%, 
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.02) 100%);
+  border: 1px solid rgba(var(--customization-accent-rgb, 49, 130, 206), 0.2);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+}
+
+.presetNote p {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--customization-text-color, var(--color-text));
+  line-height: 1.5;
+}
+
+.presetNote strong {
+  color: var(--customization-accent-color, var(--color-accent));
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .presetsGrid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .presetCard {
+    min-height: 160px;
+    padding: var(--spacing-xl);
+  }
+  
+  .presetIcon {
+    font-size: 2rem;
+  }
+  
+  .presetPreview {
+    font-size: 1.25rem;
+  }
+  
+  .presetName {
+    font-size: var(--font-size-base);
+  }
+  
+  .presetDescription {
+    font-size: 12px;
+  }
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .presetsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

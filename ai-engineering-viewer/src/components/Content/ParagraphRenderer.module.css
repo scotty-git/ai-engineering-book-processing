@@ -1,0 +1,76 @@
+.paragraph {
+  margin: 0 0 var(--customization-paragraph-spacing, var(--spacing-md)) 0;
+  line-height: var(--customization-line-height, var(--line-height-base));
+  color: var(--customization-text-color, var(--color-text));
+  text-indent: var(--customization-paragraph-indent, 0);
+}
+
+.paragraph p {
+  margin: 0 0 var(--customization-paragraph-spacing, var(--spacing-md)) 0;
+  line-height: var(--customization-line-height, var(--line-height-base));
+  color: var(--customization-text-color, var(--color-text));
+}
+
+/* Drop caps styling - DISABLED */
+/*
+.paragraph:first-of-type p:first-child::first-letter {
+  display: var(--customization-drop-caps-display, none);
+  float: left;
+  font-size: 3.5em;
+  line-height: 0.8;
+  margin: 0.1em 0.1em 0 0;
+  font-weight: bold;
+  color: var(--customization-accent-color, var(--color-accent));
+}
+*/
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* Style links within paragraphs */
+.paragraph a {
+  color: var(--customization-accent-color, var(--color-accent));
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.paragraph a:hover {
+  color: var(--customization-accent-hover, var(--color-accent-hover));
+  border-bottom-color: var(--customization-accent-hover, var(--color-accent-hover));
+}
+
+/* Style emphasis within paragraphs */
+.paragraph em {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.paragraph strong {
+  font-weight: 600;
+}
+
+/* Special styling for paragraphs with links */
+.hasLinks {
+  /* Could add special styling for paragraphs that contain links */
+}
+
+/* Special styling for paragraphs with emphasis */
+.hasEmphasis {
+  /* Could add special styling for paragraphs that contain emphasis */
+}
+
+/* Style footnote links */
+.paragraph sup a {
+  font-size: 0.75em;
+  text-decoration: none;
+  color: var(--customization-accent-color, var(--color-accent));
+  padding: 0 2px;
+}
+
+.paragraph sup a:hover {
+  background-color: var(--customization-accent-color, var(--color-accent));
+  color: white;
+  border-radius: 2px;
+}

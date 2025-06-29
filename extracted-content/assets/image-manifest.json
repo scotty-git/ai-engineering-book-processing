@@ -1,0 +1,1140 @@
+{
+  "total_images": 162,
+  "extraction_date": "2025-06-29T12:20:43.649709",
+  "images": {
+    "css_titlepage_footer_ebook.png": {
+      "original_path": "css_assets/titlepage_footer_ebook.png",
+      "size_bytes": 8519,
+      "size_kb": 8.3,
+      "extracted_path": "extracted-content/images/css_titlepage_footer_ebook.png",
+      "chapter": null
+    },
+    "aien_0101.png": {
+      "original_path": "assets/aien_0101.png",
+      "size_bytes": 12602,
+      "size_kb": 12.3,
+      "extracted_path": "extracted-content/images/aien_0101.png",
+      "chapter": 1
+    },
+    "aien_0102.png": {
+      "original_path": "assets/aien_0102.png",
+      "size_bytes": 33185,
+      "size_kb": 32.4,
+      "extracted_path": "extracted-content/images/aien_0102.png",
+      "chapter": 1
+    },
+    "aien_0103.png": {
+      "original_path": "assets/aien_0103.png",
+      "size_bytes": 29790,
+      "size_kb": 29.1,
+      "extracted_path": "extracted-content/images/aien_0103.png",
+      "chapter": 1
+    },
+    "aien_0104.png": {
+      "original_path": "assets/aien_0104.png",
+      "size_bytes": 1140634,
+      "size_kb": 1113.9,
+      "extracted_path": "extracted-content/images/aien_0104.png",
+      "chapter": 1
+    },
+    "aien_0105.png": {
+      "original_path": "assets/aien_0105.png",
+      "size_bytes": 162413,
+      "size_kb": 158.6,
+      "extracted_path": "extracted-content/images/aien_0105.png",
+      "chapter": 1
+    },
+    "aien_0106.png": {
+      "original_path": "assets/aien_0106.png",
+      "size_bytes": 171921,
+      "size_kb": 167.9,
+      "extracted_path": "extracted-content/images/aien_0106.png",
+      "chapter": 1
+    },
+    "aien_0107.png": {
+      "original_path": "assets/aien_0107.png",
+      "size_bytes": 70000,
+      "size_kb": 68.4,
+      "extracted_path": "extracted-content/images/aien_0107.png",
+      "chapter": 1
+    },
+    "aien_0108.png": {
+      "original_path": "assets/aien_0108.png",
+      "size_bytes": 45205,
+      "size_kb": 44.1,
+      "extracted_path": "extracted-content/images/aien_0108.png",
+      "chapter": 1
+    },
+    "aien_0109.png": {
+      "original_path": "assets/aien_0109.png",
+      "size_bytes": 102403,
+      "size_kb": 100.0,
+      "extracted_path": "extracted-content/images/aien_0109.png",
+      "chapter": 1
+    },
+    "aien_0110.png": {
+      "original_path": "assets/aien_0110.png",
+      "size_bytes": 162492,
+      "size_kb": 158.7,
+      "extracted_path": "extracted-content/images/aien_0110.png",
+      "chapter": 1
+    },
+    "aien_0111.png": {
+      "original_path": "assets/aien_0111.png",
+      "size_bytes": 327133,
+      "size_kb": 319.5,
+      "extracted_path": "extracted-content/images/aien_0111.png",
+      "chapter": 1
+    },
+    "aien_0112.png": {
+      "original_path": "assets/aien_0112.png",
+      "size_bytes": 637846,
+      "size_kb": 622.9,
+      "extracted_path": "extracted-content/images/aien_0112.png",
+      "chapter": 1
+    },
+    "aien_0113.png": {
+      "original_path": "assets/aien_0113.png",
+      "size_bytes": 632091,
+      "size_kb": 617.3,
+      "extracted_path": "extracted-content/images/aien_0113.png",
+      "chapter": 1
+    },
+    "aien_0114.png": {
+      "original_path": "assets/aien_0114.png",
+      "size_bytes": 126507,
+      "size_kb": 123.5,
+      "extracted_path": "extracted-content/images/aien_0114.png",
+      "chapter": 1
+    },
+    "aien_0115.png": {
+      "original_path": "assets/aien_0115.png",
+      "size_bytes": 307633,
+      "size_kb": 300.4,
+      "extracted_path": "extracted-content/images/aien_0115.png",
+      "chapter": 1
+    },
+    "aien_0116.png": {
+      "original_path": "assets/aien_0116.png",
+      "size_bytes": 47881,
+      "size_kb": 46.8,
+      "extracted_path": "extracted-content/images/aien_0116.png",
+      "chapter": 1
+    },
+    "aien_0201.png": {
+      "original_path": "assets/aien_0201.png",
+      "size_bytes": 175979,
+      "size_kb": 171.9,
+      "extracted_path": "extracted-content/images/aien_0201.png",
+      "chapter": 2
+    },
+    "aien_0202.png": {
+      "original_path": "assets/aien_0202.png",
+      "size_bytes": 42386,
+      "size_kb": 41.4,
+      "extracted_path": "extracted-content/images/aien_0202.png",
+      "chapter": 2
+    },
+    "aien_0203.png": {
+      "original_path": "assets/aien_0203.png",
+      "size_bytes": 88835,
+      "size_kb": 86.8,
+      "extracted_path": "extracted-content/images/aien_0203.png",
+      "chapter": 2
+    },
+    "aien_0204.png": {
+      "original_path": "assets/aien_0204.png",
+      "size_bytes": 44505,
+      "size_kb": 43.5,
+      "extracted_path": "extracted-content/images/aien_0204.png",
+      "chapter": 2
+    },
+    "aien_0205.png": {
+      "original_path": "assets/aien_0205.png",
+      "size_bytes": 111150,
+      "size_kb": 108.5,
+      "extracted_path": "extracted-content/images/aien_0205.png",
+      "chapter": 2
+    },
+    "aien_0206.png": {
+      "original_path": "assets/aien_0206.png",
+      "size_bytes": 60063,
+      "size_kb": 58.7,
+      "extracted_path": "extracted-content/images/aien_0206.png",
+      "chapter": 2
+    },
+    "aien_0207.png": {
+      "original_path": "assets/aien_0207.png",
+      "size_bytes": 91813,
+      "size_kb": 89.7,
+      "extracted_path": "extracted-content/images/aien_0207.png",
+      "chapter": 2
+    },
+    "aien_0208.png": {
+      "original_path": "assets/aien_0208.png",
+      "size_bytes": 137576,
+      "size_kb": 134.4,
+      "extracted_path": "extracted-content/images/aien_0208.png",
+      "chapter": 2
+    },
+    "aien_0209.png": {
+      "original_path": "assets/aien_0209.png",
+      "size_bytes": 141250,
+      "size_kb": 137.9,
+      "extracted_path": "extracted-content/images/aien_0209.png",
+      "chapter": 2
+    },
+    "aien_0210.png": {
+      "original_path": "assets/aien_0210.png",
+      "size_bytes": 69958,
+      "size_kb": 68.3,
+      "extracted_path": "extracted-content/images/aien_0210.png",
+      "chapter": 2
+    },
+    "aien_0211.png": {
+      "original_path": "assets/aien_0211.png",
+      "size_bytes": 423898,
+      "size_kb": 414.0,
+      "extracted_path": "extracted-content/images/aien_0211.png",
+      "chapter": 2
+    },
+    "aien_0212.png": {
+      "original_path": "assets/aien_0212.png",
+      "size_bytes": 184342,
+      "size_kb": 180.0,
+      "extracted_path": "extracted-content/images/aien_0212.png",
+      "chapter": 2
+    },
+    "aien_0213.png": {
+      "original_path": "assets/aien_0213.png",
+      "size_bytes": 392108,
+      "size_kb": 382.9,
+      "extracted_path": "extracted-content/images/aien_0213.png",
+      "chapter": 2
+    },
+    "aien_0214.png": {
+      "original_path": "assets/aien_0214.png",
+      "size_bytes": 27368,
+      "size_kb": 26.7,
+      "extracted_path": "extracted-content/images/aien_0214.png",
+      "chapter": 2
+    },
+    "aien_0215.png": {
+      "original_path": "assets/aien_0215.png",
+      "size_bytes": 15168,
+      "size_kb": 14.8,
+      "extracted_path": "extracted-content/images/aien_0215.png",
+      "chapter": 2
+    },
+    "aien_0216.png": {
+      "original_path": "assets/aien_0216.png",
+      "size_bytes": 111963,
+      "size_kb": 109.3,
+      "extracted_path": "extracted-content/images/aien_0216.png",
+      "chapter": 2
+    },
+    "aien_0217.png": {
+      "original_path": "assets/aien_0217.png",
+      "size_bytes": 35752,
+      "size_kb": 34.9,
+      "extracted_path": "extracted-content/images/aien_0217.png",
+      "chapter": 2
+    },
+    "aien_0218.png": {
+      "original_path": "assets/aien_0218.png",
+      "size_bytes": 8251,
+      "size_kb": 8.1,
+      "extracted_path": "extracted-content/images/aien_0218.png",
+      "chapter": 2
+    },
+    "aien_0219.png": {
+      "original_path": "assets/aien_0219.png",
+      "size_bytes": 61438,
+      "size_kb": 60.0,
+      "extracted_path": "extracted-content/images/aien_0219.png",
+      "chapter": 2
+    },
+    "aien_0220.png": {
+      "original_path": "assets/aien_0220.png",
+      "size_bytes": 120987,
+      "size_kb": 118.2,
+      "extracted_path": "extracted-content/images/aien_0220.png",
+      "chapter": 2
+    },
+    "aien_0221.png": {
+      "original_path": "assets/aien_0221.png",
+      "size_bytes": 37604,
+      "size_kb": 36.7,
+      "extracted_path": "extracted-content/images/aien_0221.png",
+      "chapter": 2
+    },
+    "aien_0222.png": {
+      "original_path": "assets/aien_0222.png",
+      "size_bytes": 24483,
+      "size_kb": 23.9,
+      "extracted_path": "extracted-content/images/aien_0222.png",
+      "chapter": 2
+    },
+    "aien_0223.png": {
+      "original_path": "assets/aien_0223.png",
+      "size_bytes": 43303,
+      "size_kb": 42.3,
+      "extracted_path": "extracted-content/images/aien_0223.png",
+      "chapter": 2
+    },
+    "aien_0224.png": {
+      "original_path": "assets/aien_0224.png",
+      "size_bytes": 674122,
+      "size_kb": 658.3,
+      "extracted_path": "extracted-content/images/aien_0224.png",
+      "chapter": 2
+    },
+    "aien_0225.png": {
+      "original_path": "assets/aien_0225.png",
+      "size_bytes": 56067,
+      "size_kb": 54.8,
+      "extracted_path": "extracted-content/images/aien_0225.png",
+      "chapter": 2
+    },
+    "aien_0226.png": {
+      "original_path": "assets/aien_0226.png",
+      "size_bytes": 113924,
+      "size_kb": 111.3,
+      "extracted_path": "extracted-content/images/aien_0226.png",
+      "chapter": 2
+    },
+    "aien_0301.png": {
+      "original_path": "assets/aien_0301.png",
+      "size_bytes": 76742,
+      "size_kb": 74.9,
+      "extracted_path": "extracted-content/images/aien_0301.png",
+      "chapter": 3
+    },
+    "aien_0302.png": {
+      "original_path": "assets/aien_0302.png",
+      "size_bytes": 117438,
+      "size_kb": 114.7,
+      "extracted_path": "extracted-content/images/aien_0302.png",
+      "chapter": 3
+    },
+    "aien_0303.png": {
+      "original_path": "assets/aien_0303.png",
+      "size_bytes": 82143,
+      "size_kb": 80.2,
+      "extracted_path": "extracted-content/images/aien_0303.png",
+      "chapter": 3
+    },
+    "aien_0304.png": {
+      "original_path": "assets/aien_0304.png",
+      "size_bytes": 4207,
+      "size_kb": 4.1,
+      "extracted_path": "extracted-content/images/aien_0304.png",
+      "chapter": 3
+    },
+    "aien_0305.png": {
+      "original_path": "assets/aien_0305.png",
+      "size_bytes": 602921,
+      "size_kb": 588.8,
+      "extracted_path": "extracted-content/images/aien_0305.png",
+      "chapter": 3
+    },
+    "aien_0306.png": {
+      "original_path": "assets/aien_0306.png",
+      "size_bytes": 95960,
+      "size_kb": 93.7,
+      "extracted_path": "extracted-content/images/aien_0306.png",
+      "chapter": 3
+    },
+    "aien_0307.png": {
+      "original_path": "assets/aien_0307.png",
+      "size_bytes": 211643,
+      "size_kb": 206.7,
+      "extracted_path": "extracted-content/images/aien_0307.png",
+      "chapter": 3
+    },
+    "aien_0308.png": {
+      "original_path": "assets/aien_0308.png",
+      "size_bytes": 38929,
+      "size_kb": 38.0,
+      "extracted_path": "extracted-content/images/aien_0308.png",
+      "chapter": 3
+    },
+    "aien_0309.png": {
+      "original_path": "assets/aien_0309.png",
+      "size_bytes": 71718,
+      "size_kb": 70.0,
+      "extracted_path": "extracted-content/images/aien_0309.png",
+      "chapter": 3
+    },
+    "aien_0310.png": {
+      "original_path": "assets/aien_0310.png",
+      "size_bytes": 264480,
+      "size_kb": 258.3,
+      "extracted_path": "extracted-content/images/aien_0310.png",
+      "chapter": 3
+    },
+    "aien_0401.png": {
+      "original_path": "assets/aien_0401.png",
+      "size_bytes": 97091,
+      "size_kb": 94.8,
+      "extracted_path": "extracted-content/images/aien_0401.png",
+      "chapter": 4
+    },
+    "aien_0402.png": {
+      "original_path": "assets/aien_0402.png",
+      "size_bytes": 88483,
+      "size_kb": 86.4,
+      "extracted_path": "extracted-content/images/aien_0402.png",
+      "chapter": 4
+    },
+    "aien_0403.png": {
+      "original_path": "assets/aien_0403.png",
+      "size_bytes": 238170,
+      "size_kb": 232.6,
+      "extracted_path": "extracted-content/images/aien_0403.png",
+      "chapter": 4
+    },
+    "aien_0404.png": {
+      "original_path": "assets/aien_0404.png",
+      "size_bytes": 216829,
+      "size_kb": 211.7,
+      "extracted_path": "extracted-content/images/aien_0404.png",
+      "chapter": 4
+    },
+    "aien_0405.png": {
+      "original_path": "assets/aien_0405.png",
+      "size_bytes": 46058,
+      "size_kb": 45.0,
+      "extracted_path": "extracted-content/images/aien_0405.png",
+      "chapter": 4
+    },
+    "aien_0406.png": {
+      "original_path": "assets/aien_0406.png",
+      "size_bytes": 21633,
+      "size_kb": 21.1,
+      "extracted_path": "extracted-content/images/aien_0406.png",
+      "chapter": 4
+    },
+    "aien_0407.png": {
+      "original_path": "assets/aien_0407.png",
+      "size_bytes": 926977,
+      "size_kb": 905.3,
+      "extracted_path": "extracted-content/images/aien_0407.png",
+      "chapter": 4
+    },
+    "aien_0408.png": {
+      "original_path": "assets/aien_0408.png",
+      "size_bytes": 202402,
+      "size_kb": 197.7,
+      "extracted_path": "extracted-content/images/aien_0408.png",
+      "chapter": 4
+    },
+    "aien_0409.png": {
+      "original_path": "assets/aien_0409.png",
+      "size_bytes": 229818,
+      "size_kb": 224.4,
+      "extracted_path": "extracted-content/images/aien_0409.png",
+      "chapter": 4
+    },
+    "aien_0410.png": {
+      "original_path": "assets/aien_0410.png",
+      "size_bytes": 376265,
+      "size_kb": 367.4,
+      "extracted_path": "extracted-content/images/aien_0410.png",
+      "chapter": 4
+    },
+    "aien_0501.png": {
+      "original_path": "assets/aien_0501.png",
+      "size_bytes": 100627,
+      "size_kb": 98.3,
+      "extracted_path": "extracted-content/images/aien_0501.png",
+      "chapter": 5
+    },
+    "aien_0502.png": {
+      "original_path": "assets/aien_0502.png",
+      "size_bytes": 128612,
+      "size_kb": 125.6,
+      "extracted_path": "extracted-content/images/aien_0502.png",
+      "chapter": 5
+    },
+    "aien_0503.png": {
+      "original_path": "assets/aien_0503.png",
+      "size_bytes": 432553,
+      "size_kb": 422.4,
+      "extracted_path": "extracted-content/images/aien_0503.png",
+      "chapter": 5
+    },
+    "aien_0504.png": {
+      "original_path": "assets/aien_0504.png",
+      "size_bytes": 317215,
+      "size_kb": 309.8,
+      "extracted_path": "extracted-content/images/aien_0504.png",
+      "chapter": 5
+    },
+    "aien_0505.png": {
+      "original_path": "assets/aien_0505.png",
+      "size_bytes": 177196,
+      "size_kb": 173.0,
+      "extracted_path": "extracted-content/images/aien_0505.png",
+      "chapter": 5
+    },
+    "aien_0506.png": {
+      "original_path": "assets/aien_0506.png",
+      "size_bytes": 178351,
+      "size_kb": 174.2,
+      "extracted_path": "extracted-content/images/aien_0506.png",
+      "chapter": 5
+    },
+    "aien_0507.png": {
+      "original_path": "assets/aien_0507.png",
+      "size_bytes": 501527,
+      "size_kb": 489.8,
+      "extracted_path": "extracted-content/images/aien_0507.png",
+      "chapter": 5
+    },
+    "aien_0508.png": {
+      "original_path": "assets/aien_0508.png",
+      "size_bytes": 43533,
+      "size_kb": 42.5,
+      "extracted_path": "extracted-content/images/aien_0508.png",
+      "chapter": 5
+    },
+    "aien_0509.png": {
+      "original_path": "assets/aien_0509.png",
+      "size_bytes": 266324,
+      "size_kb": 260.1,
+      "extracted_path": "extracted-content/images/aien_0509.png",
+      "chapter": 5
+    },
+    "aien_0510.png": {
+      "original_path": "assets/aien_0510.png",
+      "size_bytes": 558136,
+      "size_kb": 545.1,
+      "extracted_path": "extracted-content/images/aien_0510.png",
+      "chapter": 5
+    },
+    "aien_0511.png": {
+      "original_path": "assets/aien_0511.png",
+      "size_bytes": 77142,
+      "size_kb": 75.3,
+      "extracted_path": "extracted-content/images/aien_0511.png",
+      "chapter": 5
+    },
+    "aien_0512.png": {
+      "original_path": "assets/aien_0512.png",
+      "size_bytes": 73083,
+      "size_kb": 71.4,
+      "extracted_path": "extracted-content/images/aien_0512.png",
+      "chapter": 5
+    },
+    "aien_0513.png": {
+      "original_path": "assets/aien_0513.png",
+      "size_bytes": 162173,
+      "size_kb": 158.4,
+      "extracted_path": "extracted-content/images/aien_0513.png",
+      "chapter": 5
+    },
+    "aien_0514.png": {
+      "original_path": "assets/aien_0514.png",
+      "size_bytes": 871298,
+      "size_kb": 850.9,
+      "extracted_path": "extracted-content/images/aien_0514.png",
+      "chapter": 5
+    },
+    "aien_0515.png": {
+      "original_path": "assets/aien_0515.png",
+      "size_bytes": 556190,
+      "size_kb": 543.2,
+      "extracted_path": "extracted-content/images/aien_0515.png",
+      "chapter": 5
+    },
+    "aien_0516.png": {
+      "original_path": "assets/aien_0516.png",
+      "size_bytes": 89604,
+      "size_kb": 87.5,
+      "extracted_path": "extracted-content/images/aien_0516.png",
+      "chapter": 5
+    },
+    "aien_0601.png": {
+      "original_path": "assets/aien_0601.png",
+      "size_bytes": 202549,
+      "size_kb": 197.8,
+      "extracted_path": "extracted-content/images/aien_0601.png",
+      "chapter": 6
+    },
+    "aien_0602.png": {
+      "original_path": "assets/aien_0602.png",
+      "size_bytes": 33979,
+      "size_kb": 33.2,
+      "extracted_path": "extracted-content/images/aien_0602.png",
+      "chapter": 6
+    },
+    "aien_0603.png": {
+      "original_path": "assets/aien_0603.png",
+      "size_bytes": 64426,
+      "size_kb": 62.9,
+      "extracted_path": "extracted-content/images/aien_0603.png",
+      "chapter": 6
+    },
+    "aien_0604.png": {
+      "original_path": "assets/aien_0604.png",
+      "size_bytes": 111562,
+      "size_kb": 108.9,
+      "extracted_path": "extracted-content/images/aien_0604.png",
+      "chapter": 6
+    },
+    "aien_0605.png": {
+      "original_path": "assets/aien_0605.png",
+      "size_bytes": 187173,
+      "size_kb": 182.8,
+      "extracted_path": "extracted-content/images/aien_0605.png",
+      "chapter": 6
+    },
+    "aien_0606.png": {
+      "original_path": "assets/aien_0606.png",
+      "size_bytes": 59841,
+      "size_kb": 58.4,
+      "extracted_path": "extracted-content/images/aien_0606.png",
+      "chapter": 6
+    },
+    "aien_0607.png": {
+      "original_path": "assets/aien_0607.png",
+      "size_bytes": 51557,
+      "size_kb": 50.3,
+      "extracted_path": "extracted-content/images/aien_0607.png",
+      "chapter": 6
+    },
+    "aien_0608.png": {
+      "original_path": "assets/aien_0608.png",
+      "size_bytes": 51625,
+      "size_kb": 50.4,
+      "extracted_path": "extracted-content/images/aien_0608.png",
+      "chapter": 6
+    },
+    "aien_0609.png": {
+      "original_path": "assets/aien_0609.png",
+      "size_bytes": 31940,
+      "size_kb": 31.2,
+      "extracted_path": "extracted-content/images/aien_0609.png",
+      "chapter": 6
+    },
+    "aien_0610.png": {
+      "original_path": "assets/aien_0610.png",
+      "size_bytes": 188547,
+      "size_kb": 184.1,
+      "extracted_path": "extracted-content/images/aien_0610.png",
+      "chapter": 6
+    },
+    "aien_0611.png": {
+      "original_path": "assets/aien_0611.png",
+      "size_bytes": 80169,
+      "size_kb": 78.3,
+      "extracted_path": "extracted-content/images/aien_0611.png",
+      "chapter": 6
+    },
+    "aien_0612.png": {
+      "original_path": "assets/aien_0612.png",
+      "size_bytes": 1096858,
+      "size_kb": 1071.2,
+      "extracted_path": "extracted-content/images/aien_0612.png",
+      "chapter": 6
+    },
+    "aien_0613.png": {
+      "original_path": "assets/aien_0613.png",
+      "size_bytes": 791601,
+      "size_kb": 773.0,
+      "extracted_path": "extracted-content/images/aien_0613.png",
+      "chapter": 6
+    },
+    "aien_0614.png": {
+      "original_path": "assets/aien_0614.png",
+      "size_bytes": 63171,
+      "size_kb": 61.7,
+      "extracted_path": "extracted-content/images/aien_0614.png",
+      "chapter": 6
+    },
+    "aien_0615.png": {
+      "original_path": "assets/aien_0615.png",
+      "size_bytes": 83810,
+      "size_kb": 81.8,
+      "extracted_path": "extracted-content/images/aien_0615.png",
+      "chapter": 6
+    },
+    "aien_0616.png": {
+      "original_path": "assets/aien_0616.png",
+      "size_bytes": 40479,
+      "size_kb": 39.5,
+      "extracted_path": "extracted-content/images/aien_0616.png",
+      "chapter": 6
+    },
+    "aien_0701.png": {
+      "original_path": "assets/aien_0701.png",
+      "size_bytes": 51094,
+      "size_kb": 49.9,
+      "extracted_path": "extracted-content/images/aien_0701.png",
+      "chapter": 7
+    },
+    "aien_0702.png": {
+      "original_path": "assets/aien_0702.png",
+      "size_bytes": 45702,
+      "size_kb": 44.6,
+      "extracted_path": "extracted-content/images/aien_0702.png",
+      "chapter": 7
+    },
+    "aien_0703.png": {
+      "original_path": "assets/aien_0703.png",
+      "size_bytes": 40015,
+      "size_kb": 39.1,
+      "extracted_path": "extracted-content/images/aien_0703.png",
+      "chapter": 7
+    },
+    "aien_0704.png": {
+      "original_path": "assets/aien_0704.png",
+      "size_bytes": 58429,
+      "size_kb": 57.1,
+      "extracted_path": "extracted-content/images/aien_0704.png",
+      "chapter": 7
+    },
+    "aien_0705.png": {
+      "original_path": "assets/aien_0705.png",
+      "size_bytes": 174931,
+      "size_kb": 170.8,
+      "extracted_path": "extracted-content/images/aien_0705.png",
+      "chapter": 7
+    },
+    "aien_0706.png": {
+      "original_path": "assets/aien_0706.png",
+      "size_bytes": 57669,
+      "size_kb": 56.3,
+      "extracted_path": "extracted-content/images/aien_0706.png",
+      "chapter": 7
+    },
+    "aien_0707.png": {
+      "original_path": "assets/aien_0707.png",
+      "size_bytes": 135311,
+      "size_kb": 132.1,
+      "extracted_path": "extracted-content/images/aien_0707.png",
+      "chapter": 7
+    },
+    "aien_0708.png": {
+      "original_path": "assets/aien_0708.png",
+      "size_bytes": 78975,
+      "size_kb": 77.1,
+      "extracted_path": "extracted-content/images/aien_0708.png",
+      "chapter": 7
+    },
+    "aien_0709.png": {
+      "original_path": "assets/aien_0709.png",
+      "size_bytes": 47892,
+      "size_kb": 46.8,
+      "extracted_path": "extracted-content/images/aien_0709.png",
+      "chapter": 7
+    },
+    "aien_0710.png": {
+      "original_path": "assets/aien_0710.png",
+      "size_bytes": 63145,
+      "size_kb": 61.7,
+      "extracted_path": "extracted-content/images/aien_0710.png",
+      "chapter": 7
+    },
+    "aien_0711.png": {
+      "original_path": "assets/aien_0711.png",
+      "size_bytes": 31338,
+      "size_kb": 30.6,
+      "extracted_path": "extracted-content/images/aien_0711.png",
+      "chapter": 7
+    },
+    "aien_0712.png": {
+      "original_path": "assets/aien_0712.png",
+      "size_bytes": 11934,
+      "size_kb": 11.7,
+      "extracted_path": "extracted-content/images/aien_0712.png",
+      "chapter": 7
+    },
+    "aien_0713.png": {
+      "original_path": "assets/aien_0713.png",
+      "size_bytes": 43449,
+      "size_kb": 42.4,
+      "extracted_path": "extracted-content/images/aien_0713.png",
+      "chapter": 7
+    },
+    "aien_0714.png": {
+      "original_path": "assets/aien_0714.png",
+      "size_bytes": 21599,
+      "size_kb": 21.1,
+      "extracted_path": "extracted-content/images/aien_0714.png",
+      "chapter": 7
+    },
+    "aien_0715.png": {
+      "original_path": "assets/aien_0715.png",
+      "size_bytes": 50665,
+      "size_kb": 49.5,
+      "extracted_path": "extracted-content/images/aien_0715.png",
+      "chapter": 7
+    },
+    "aien_0716.png": {
+      "original_path": "assets/aien_0716.png",
+      "size_bytes": 14731,
+      "size_kb": 14.4,
+      "extracted_path": "extracted-content/images/aien_0716.png",
+      "chapter": 7
+    },
+    "aien_0717.png": {
+      "original_path": "assets/aien_0717.png",
+      "size_bytes": 54960,
+      "size_kb": 53.7,
+      "extracted_path": "extracted-content/images/aien_0717.png",
+      "chapter": 7
+    },
+    "aien_0718.png": {
+      "original_path": "assets/aien_0718.png",
+      "size_bytes": 70159,
+      "size_kb": 68.5,
+      "extracted_path": "extracted-content/images/aien_0718.png",
+      "chapter": 7
+    },
+    "aien_0719.png": {
+      "original_path": "assets/aien_0719.png",
+      "size_bytes": 68710,
+      "size_kb": 67.1,
+      "extracted_path": "extracted-content/images/aien_0719.png",
+      "chapter": 7
+    },
+    "aien_0720.png": {
+      "original_path": "assets/aien_0720.png",
+      "size_bytes": 32106,
+      "size_kb": 31.4,
+      "extracted_path": "extracted-content/images/aien_0720.png",
+      "chapter": 7
+    },
+    "aien_0801.png": {
+      "original_path": "assets/aien_0801.png",
+      "size_bytes": 246680,
+      "size_kb": 240.9,
+      "extracted_path": "extracted-content/images/aien_0801.png",
+      "chapter": 8
+    },
+    "aien_0802.png": {
+      "original_path": "assets/aien_0802.png",
+      "size_bytes": 279022,
+      "size_kb": 272.5,
+      "extracted_path": "extracted-content/images/aien_0802.png",
+      "chapter": 8
+    },
+    "aien_0803.png": {
+      "original_path": "assets/aien_0803.png",
+      "size_bytes": 87167,
+      "size_kb": 85.1,
+      "extracted_path": "extracted-content/images/aien_0803.png",
+      "chapter": 8
+    },
+    "aien_0804.png": {
+      "original_path": "assets/aien_0804.png",
+      "size_bytes": 78933,
+      "size_kb": 77.1,
+      "extracted_path": "extracted-content/images/aien_0804.png",
+      "chapter": 8
+    },
+    "aien_0805.png": {
+      "original_path": "assets/aien_0805.png",
+      "size_bytes": 30343,
+      "size_kb": 29.6,
+      "extracted_path": "extracted-content/images/aien_0805.png",
+      "chapter": 8
+    },
+    "aien_0806.png": {
+      "original_path": "assets/aien_0806.png",
+      "size_bytes": 297557,
+      "size_kb": 290.6,
+      "extracted_path": "extracted-content/images/aien_0806.png",
+      "chapter": 8
+    },
+    "aien_0807.png": {
+      "original_path": "assets/aien_0807.png",
+      "size_bytes": 41792,
+      "size_kb": 40.8,
+      "extracted_path": "extracted-content/images/aien_0807.png",
+      "chapter": 8
+    },
+    "aien_0901.png": {
+      "original_path": "assets/aien_0901.png",
+      "size_bytes": 37343,
+      "size_kb": 36.5,
+      "extracted_path": "extracted-content/images/aien_0901.png",
+      "chapter": 9
+    },
+    "aien_0902.png": {
+      "original_path": "assets/aien_0902.png",
+      "size_bytes": 46581,
+      "size_kb": 45.5,
+      "extracted_path": "extracted-content/images/aien_0902.png",
+      "chapter": 9
+    },
+    "aien_0903.png": {
+      "original_path": "assets/aien_0903.png",
+      "size_bytes": 35013,
+      "size_kb": 34.2,
+      "extracted_path": "extracted-content/images/aien_0903.png",
+      "chapter": 9
+    },
+    "aien_0904.png": {
+      "original_path": "assets/aien_0904.png",
+      "size_bytes": 70828,
+      "size_kb": 69.2,
+      "extracted_path": "extracted-content/images/aien_0904.png",
+      "chapter": 9
+    },
+    "aien_0905.png": {
+      "original_path": "assets/aien_0905.png",
+      "size_bytes": 203251,
+      "size_kb": 198.5,
+      "extracted_path": "extracted-content/images/aien_0905.png",
+      "chapter": 9
+    },
+    "aien_0906.png": {
+      "original_path": "assets/aien_0906.png",
+      "size_bytes": 22402,
+      "size_kb": 21.9,
+      "extracted_path": "extracted-content/images/aien_0906.png",
+      "chapter": 9
+    },
+    "aien_0907.png": {
+      "original_path": "assets/aien_0907.png",
+      "size_bytes": 35971,
+      "size_kb": 35.1,
+      "extracted_path": "extracted-content/images/aien_0907.png",
+      "chapter": 9
+    },
+    "aien_0908.png": {
+      "original_path": "assets/aien_0908.png",
+      "size_bytes": 138261,
+      "size_kb": 135.0,
+      "extracted_path": "extracted-content/images/aien_0908.png",
+      "chapter": 9
+    },
+    "aien_0909.png": {
+      "original_path": "assets/aien_0909.png",
+      "size_bytes": 41208,
+      "size_kb": 40.2,
+      "extracted_path": "extracted-content/images/aien_0909.png",
+      "chapter": 9
+    },
+    "aien_0910.png": {
+      "original_path": "assets/aien_0910.png",
+      "size_bytes": 583960,
+      "size_kb": 570.3,
+      "extracted_path": "extracted-content/images/aien_0910.png",
+      "chapter": 9
+    },
+    "aien_0911.png": {
+      "original_path": "assets/aien_0911.png",
+      "size_bytes": 139423,
+      "size_kb": 136.2,
+      "extracted_path": "extracted-content/images/aien_0911.png",
+      "chapter": 9
+    },
+    "aien_0912.png": {
+      "original_path": "assets/aien_0912.png",
+      "size_bytes": 36442,
+      "size_kb": 35.6,
+      "extracted_path": "extracted-content/images/aien_0912.png",
+      "chapter": 9
+    },
+    "aien_0913.png": {
+      "original_path": "assets/aien_0913.png",
+      "size_bytes": 21278,
+      "size_kb": 20.8,
+      "extracted_path": "extracted-content/images/aien_0913.png",
+      "chapter": 9
+    },
+    "aien_0914.png": {
+      "original_path": "assets/aien_0914.png",
+      "size_bytes": 137943,
+      "size_kb": 134.7,
+      "extracted_path": "extracted-content/images/aien_0914.png",
+      "chapter": 9
+    },
+    "aien_0915.png": {
+      "original_path": "assets/aien_0915.png",
+      "size_bytes": 29524,
+      "size_kb": 28.8,
+      "extracted_path": "extracted-content/images/aien_0915.png",
+      "chapter": 9
+    },
+    "aien_0916.png": {
+      "original_path": "assets/aien_0916.png",
+      "size_bytes": 43371,
+      "size_kb": 42.4,
+      "extracted_path": "extracted-content/images/aien_0916.png",
+      "chapter": 9
+    },
+    "aien_0917.png": {
+      "original_path": "assets/aien_0917.png",
+      "size_bytes": 36709,
+      "size_kb": 35.8,
+      "extracted_path": "extracted-content/images/aien_0917.png",
+      "chapter": 9
+    },
+    "aien_0918.png": {
+      "original_path": "assets/aien_0918.png",
+      "size_bytes": 17840,
+      "size_kb": 17.4,
+      "extracted_path": "extracted-content/images/aien_0918.png",
+      "chapter": 9
+    },
+    "aien_0919.png": {
+      "original_path": "assets/aien_0919.png",
+      "size_bytes": 52167,
+      "size_kb": 50.9,
+      "extracted_path": "extracted-content/images/aien_0919.png",
+      "chapter": 9
+    },
+    "aien_1001.png": {
+      "original_path": "assets/aien_1001.png",
+      "size_bytes": 15643,
+      "size_kb": 15.3,
+      "extracted_path": "extracted-content/images/aien_1001.png",
+      "chapter": 10
+    },
+    "aien_1002.png": {
+      "original_path": "assets/aien_1002.png",
+      "size_bytes": 48747,
+      "size_kb": 47.6,
+      "extracted_path": "extracted-content/images/aien_1002.png",
+      "chapter": 10
+    },
+    "aien_1003.png": {
+      "original_path": "assets/aien_1003.png",
+      "size_bytes": 96865,
+      "size_kb": 94.6,
+      "extracted_path": "extracted-content/images/aien_1003.png",
+      "chapter": 10
+    },
+    "aien_1004.png": {
+      "original_path": "assets/aien_1004.png",
+      "size_bytes": 68199,
+      "size_kb": 66.6,
+      "extracted_path": "extracted-content/images/aien_1004.png",
+      "chapter": 10
+    },
+    "aien_1005.png": {
+      "original_path": "assets/aien_1005.png",
+      "size_bytes": 72599,
+      "size_kb": 70.9,
+      "extracted_path": "extracted-content/images/aien_1005.png",
+      "chapter": 10
+    },
+    "aien_1006.png": {
+      "original_path": "assets/aien_1006.png",
+      "size_bytes": 40281,
+      "size_kb": 39.3,
+      "extracted_path": "extracted-content/images/aien_1006.png",
+      "chapter": 10
+    },
+    "aien_1007.png": {
+      "original_path": "assets/aien_1007.png",
+      "size_bytes": 78541,
+      "size_kb": 76.7,
+      "extracted_path": "extracted-content/images/aien_1007.png",
+      "chapter": 10
+    },
+    "aien_1008.png": {
+      "original_path": "assets/aien_1008.png",
+      "size_bytes": 90088,
+      "size_kb": 88.0,
+      "extracted_path": "extracted-content/images/aien_1008.png",
+      "chapter": 10
+    },
+    "aien_1009.png": {
+      "original_path": "assets/aien_1009.png",
+      "size_bytes": 89298,
+      "size_kb": 87.2,
+      "extracted_path": "extracted-content/images/aien_1009.png",
+      "chapter": 10
+    },
+    "aien_1010.png": {
+      "original_path": "assets/aien_1010.png",
+      "size_bytes": 96931,
+      "size_kb": 94.7,
+      "extracted_path": "extracted-content/images/aien_1010.png",
+      "chapter": 10
+    },
+    "aien_1011.png": {
+      "original_path": "assets/aien_1011.png",
+      "size_bytes": 520001,
+      "size_kb": 507.8,
+      "extracted_path": "extracted-content/images/aien_1011.png",
+      "chapter": 10
+    },
+    "aien_1012.png": {
+      "original_path": "assets/aien_1012.png",
+      "size_bytes": 296224,
+      "size_kb": 289.3,
+      "extracted_path": "extracted-content/images/aien_1012.png",
+      "chapter": 10
+    },
+    "aien_1013.png": {
+      "original_path": "assets/aien_1013.png",
+      "size_bytes": 17707,
+      "size_kb": 17.3,
+      "extracted_path": "extracted-content/images/aien_1013.png",
+      "chapter": 10
+    },
+    "aien_1014.png": {
+      "original_path": "assets/aien_1014.png",
+      "size_bytes": 2453787,
+      "size_kb": 2396.3,
+      "extracted_path": "extracted-content/images/aien_1014.png",
+      "chapter": 10
+    },
+    "aien_1015.png": {
+      "original_path": "assets/aien_1015.png",
+      "size_bytes": 90013,
+      "size_kb": 87.9,
+      "extracted_path": "extracted-content/images/aien_1015.png",
+      "chapter": 10
+    },
+    "aien_1016.png": {
+      "original_path": "assets/aien_1016.png",
+      "size_bytes": 145506,
+      "size_kb": 142.1,
+      "extracted_path": "extracted-content/images/aien_1016.png",
+      "chapter": 10
+    },
+    "aien_1017.png": {
+      "original_path": "assets/aien_1017.png",
+      "size_bytes": 352863,
+      "size_kb": 344.6,
+      "extracted_path": "extracted-content/images/aien_1017.png",
+      "chapter": 10
+    },
+    "aien_1018.png": {
+      "original_path": "assets/aien_1018.png",
+      "size_bytes": 1066838,
+      "size_kb": 1041.8,
+      "extracted_path": "extracted-content/images/aien_1018.png",
+      "chapter": 10
+    },
+    "aien_1019.png": {
+      "original_path": "assets/aien_1019.png",
+      "size_bytes": 95346,
+      "size_kb": 93.1,
+      "extracted_path": "extracted-content/images/aien_1019.png",
+      "chapter": 10
+    },
+    "aien_1020.png": {
+      "original_path": "assets/aien_1020.png",
+      "size_bytes": 87027,
+      "size_kb": 85.0,
+      "extracted_path": "extracted-content/images/aien_1020.png",
+      "chapter": 10
+    },
+    "aien_1021.png": {
+      "original_path": "assets/aien_1021.png",
+      "size_bytes": 199330,
+      "size_kb": 194.7,
+      "extracted_path": "extracted-content/images/aien_1021.png",
+      "chapter": 10
+    }
+  }
+}

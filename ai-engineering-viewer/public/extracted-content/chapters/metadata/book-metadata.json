@@ -1,0 +1,2619 @@
+{
+  "title": "AI Engineering",
+  "extraction_date": "2025-06-29T12:20:44.236494",
+  "total_chapters": 10,
+  "table_of_contents": [
+    {
+      "id": "ch01",
+      "title": "Chapter 1. Introduction to Building AI Applications with Foundation Models",
+      "file": "ch01.html",
+      "word_count": 15480,
+      "reading_time": 77,
+      "sections": [
+        {
+          "title": "The Rise of AI Engineering",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "From Language Models to Large Language Models",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Language models",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Self-supervision",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "From Large Language Models to Foundation Models",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "From Foundation Models to AI Engineering",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Why the Term “AI Engineering?”",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Foundation Model Use Cases",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Coding",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Image and Video Production",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Writing",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Education",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Conversational Bots",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Information Aggregation",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Data Organization",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Workflow Automation",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Planning AI Applications",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Use Case Evaluation",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "The role of AI and humans in the application",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "AI product defensibility",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Setting Expectations",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Milestone Planning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Maintenance",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "The AI Engineering Stack",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Three Layers of the AI Stack",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "AI Engineering Versus ML Engineering",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Model development",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Modeling and training",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "On the Differences Among Training, Pre-Training, Finetuning, and Post-Training",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Dataset engineering",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Inference optimization",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Application development",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Evaluation",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Prompt engineering and context construction",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "AI interface",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "AI Engineering Versus Full-Stack Engineering",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 16,
+        "tables": 6,
+        "code_blocks": 2,
+        "headings": 37
+      }
+    },
+    {
+      "id": "ch02",
+      "title": "Chapter 2. Understanding Foundation Models",
+      "file": "ch02.html",
+      "word_count": 19415,
+      "reading_time": 97,
+      "sections": [
+        {
+          "title": "Training Data",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Multilingual Models",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Domain-Specific Models",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Tip",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Modeling",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Model Architecture",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Transformer architecture",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Attention mechanism",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Transformer block",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Other model architectures",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Model Size",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Warning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Tip",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Inverse Scaling",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Scaling law: Building compute-optimal models",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Scaling extrapolation",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Parameter Versus Hyperparameter",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Scaling bottlenecks",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Post-Training",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Warning",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Supervised Finetuning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Preference Finetuning",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Reward model",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Finetuning using the reward model",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sampling",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Sampling Fundamentals",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Sampling Strategies",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Temperature",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Top-k",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Top-p",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Stopping condition",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Test Time Compute",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Warning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Structured Outputs",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Prompting",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Post-processing",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Constrained sampling",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Finetuning",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "The Probabilistic Nature of AI",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Inconsistency",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Hallucination",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 26,
+        "tables": 7,
+        "code_blocks": 7,
+        "headings": 44
+      }
+    },
+    {
+      "id": "ch03",
+      "title": "Chapter 3. Evaluation Methodology",
+      "file": "ch03.html",
+      "word_count": 15275,
+      "reading_time": 76,
+      "sections": [
+        {
+          "title": "Challenges of Evaluating Foundation Models",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Understanding Language Modeling Metrics",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Entropy",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Cross Entropy",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Bits-per-Character and Bits-per-Byte",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Perplexity",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Perplexity Interpretation and Use Cases",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Warning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "How to Use a Language Model to Compute a Text’s Perplexity",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Exact Evaluation",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Functional Correctness",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Similarity Measurements Against Reference Data",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Exact match",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Lexical similarity",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Semantic similarity",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Warning",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Introduction to Embedding",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "AI as a Judge",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Why AI as a Judge?",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "How to Use AI as a Judge",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Tip",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Limitations of AI as a Judge",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Inconsistency",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Criteria ambiguity",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Increased costs and latency",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Biases of AI as a judge",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "What Models Can Act as Judges?",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Ranking Models with Comparative Evaluation",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Challenges of Comparative Evaluation",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Scalability bottlenecks",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Lack of standardization and quality control",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "From comparative performance to absolute performance",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "The Future of Comparative Evaluation",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 10,
+        "tables": 6,
+        "code_blocks": 6,
+        "headings": 35
+      }
+    },
+    {
+      "id": "ch04",
+      "title": "Chapter 4. Evaluate AI Systems",
+      "file": "ch04.html",
+      "word_count": 18496,
+      "reading_time": 92,
+      "sections": [
+        {
+          "title": "Evaluation Criteria",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Evaluation-Driven Development",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Domain-Specific Capability",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Generation Capability",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Factual consistency",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Safety",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Instruction-Following Capability",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Warning",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Instruction-following criteria",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Roleplaying",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Cost and Latency",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Tip",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Model Selection",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Model Selection Workflow",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Model Build Versus Buy",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Open source, open weight, and model licenses",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Open source models versus model APIs",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Data privacy",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Data lineage and copyright",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Performance",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Functionality",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "API cost versus engineering cost",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Control, access, and transparency",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "On-device deployment",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Navigate Public Benchmarks",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Benchmark selection and aggregation",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Public leaderboards",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Custom leaderboards with public benchmarks",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Are OpenAI’s Models Getting Worse?",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Data contamination with public benchmarks",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "How data contamination happens",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Handling data contamination",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Design Your Evaluation Pipeline",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Step 1. Evaluate All Components in a System",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Step 2. Create an Evaluation Guideline",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Define evaluation criteria",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Create scoring rubrics with examples",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tie evaluation metrics to business metrics",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Step 3. Define Evaluation Methods and Data",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Select evaluation methods",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Annotate evaluation data",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Evaluate your evaluation pipeline",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Iterate",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 10,
+        "tables": 7,
+        "code_blocks": 3,
+        "headings": 47
+      }
+    },
+    {
+      "id": "ch05",
+      "title": "Chapter 5. Prompt Engineering",
+      "file": "ch05.html",
+      "word_count": 12402,
+      "reading_time": 62,
+      "sections": [
+        {
+          "title": "Introduction to Prompting",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Tip",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "In-Context Learning: Zero-Shot and Few-Shot",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Terminology Ambiguity: Prompt Versus Context",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "System Prompt and User Prompt",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Warning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Tip",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Context Length and Context Efficiency",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Prompt Engineering Best Practices",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Write Clear and Explicit Instructions",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Explain, without ambiguity, what you want the model to do",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Ask the model to adopt a persona",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Provide examples",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Specify the output format",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Provide Sufficient Context",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "How to Restrict a Model’s Knowledge to Only Its Context",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Break Complex Tasks into Simpler Subtasks",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Give the Model Time to Think",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Iterate on Your Prompts",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Evaluate Prompt Engineering Tools",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Organize and Version Prompts",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Defensive Prompt Engineering",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Proprietary Prompts and Reverse Prompt Engineering",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Jailbreaking and Prompt Injection",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Direct manual prompt hacking",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Automated attacks",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Indirect prompt injection",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Information Extraction",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Defenses Against Prompt Attacks",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Model-level defense",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Prompt-level defense",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "System-level defense",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 16,
+        "tables": 4,
+        "code_blocks": 13,
+        "headings": 33
+      }
+    },
+    {
+      "id": "ch06",
+      "title": "Chapter 6. RAG and Agents",
+      "file": "ch06.html",
+      "word_count": 17650,
+      "reading_time": 88,
+      "sections": [
+        {
+          "title": "RAG",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "RAG Architecture",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Retrieval Algorithms",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Sparse Versus Dense Retrieval",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Term-based retrieval",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Embedding-based retrieval",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Comparing retrieval algorithms",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Combining retrieval algorithms",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Retrieval Optimization",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Chunking strategy",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Reranking",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Query rewriting",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Contextual retrieval",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Evaluating Retrieval Solutions",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "RAG Beyond Texts",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Multimodal RAG",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "RAG with tabular data",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Agents",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Warning",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Agent Overview",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Tools",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Knowledge augmentation",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Capability extension",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Write actions",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Planning",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Planning overview",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Foundation models as planners",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Foundation Model (FM) Versus Reinforcement Learning (RL) Planners",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Plan generation",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Function calling",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Tip",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Planning granularity",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Complex plans",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Reflection and error correction",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tool selection",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Agent Failure Modes and Evaluation",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Planning failures",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tool failures",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Efficiency",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Memory",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 16,
+        "tables": 3,
+        "code_blocks": 9,
+        "headings": 43
+      }
+    },
+    {
+      "id": "ch07",
+      "title": "Chapter 7. Finetuning",
+      "file": "ch07.html",
+      "word_count": 18014,
+      "reading_time": 90,
+      "sections": [
+        {
+          "title": "Finetuning Overview",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "When to Finetune",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Reasons to Finetune",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Reasons Not to Finetune",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Finetuning Domain-Specific Tasks",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Finetuning and RAG",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Memory Bottlenecks",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Key Takeaways for Understanding Memory Bottlenecks",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Backpropagation and Trainable Parameters",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Memory Math",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Memory needed for inference",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Memory needed for training",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Tip",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Numerical Representations",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Warning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Quantization",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Quantization Versus Reduced Precision",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Inference quantization",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Training quantization",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Finetuning Techniques",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Parameter-Efficient Finetuning",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "PEFT techniques",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "LoRA",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Why does LoRA work?",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "LoRA configurations",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Serving LoRA adapters",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Quantized LoRA",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Model Merging and Multi-Task Finetuning",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Summing",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Linear combination",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Spherical linear interpolation (SLERP)",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Pruning redundant task-specific parameters",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Layer stacking",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Concatenation",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Finetuning Tactics",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Finetuning frameworks and base models",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Base models",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Finetuning methods",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Finetuning frameworks",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Finetuning hyperparameters",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Learning rate",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Batch size",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Number of epochs",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Prompt loss weight",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 20,
+        "tables": 7,
+        "code_blocks": 4,
+        "headings": 45
+      }
+    },
+    {
+      "id": "ch08",
+      "title": "Chapter 8. Dataset Engineering",
+      "file": "ch08.html",
+      "word_count": 14322,
+      "reading_time": 71,
+      "sections": [
+        {
+          "title": "A Data-Centric View of AI",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Data Curation",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Data Quality",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Data Coverage",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Data Quantity",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Tip",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Data Acquisition and Annotation",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Resources for Publicly Available Datasets",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Data Augmentation and Synthesis",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Why Data Synthesis",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Traditional Data Synthesis Techniques",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Rule-based data synthesis",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Simulation",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "AI-Powered Data Synthesis",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Instruction data synthesis",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Data verification",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Limitations to AI-generated data",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Quality control",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Superficial imitation",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Potential model collapse",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Obscure data lineage",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Model Distillation",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Data Processing",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        },
+        {
+          "title": "Tip",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Inspect Data",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Deduplicate Data",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Clean and Filter Data",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Format Data",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 7,
+        "tables": 4,
+        "code_blocks": 4,
+        "headings": 29
+      }
+    },
+    {
+      "id": "ch09",
+      "title": "Chapter 9. Inference Optimization",
+      "file": "ch09.html",
+      "word_count": 13330,
+      "reading_time": 66,
+      "sections": [
+        {
+          "title": "Understanding Inference Optimization",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Inference Overview",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Computational bottlenecks",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Terminology Ambiguity: Memory-Bound Versus Bandwidth-Bound",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Online and batch inference APIs",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Warning",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Inference Performance Metrics",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Latency, TTFT, and TPOT",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Throughput and goodput",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Utilization, MFU, and MBU",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "AI Accelerators",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "What’s an accelerator?",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Computational capabilities",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Memory size and bandwidth",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Power consumption",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Selecting Accelerators",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Inference Optimization",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Model Optimization",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Model compression",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Overcoming the autoregressive decoding bottleneck",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Speculative decoding",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Inference with reference",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Parallel decoding",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Attention mechanism optimization",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Calculating the KV Cache Size",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Redesigning the attention mechanism",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Optimizing the KV cache size",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Writing kernels for attention computation",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Kernels and compilers",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Inference Optimization Case Study from PyTorch",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Inference Service Optimization",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Batching",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Decoupling prefill and decode",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Prompt caching",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Parallelism",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 19,
+        "tables": 3,
+        "code_blocks": 4,
+        "headings": 36
+      }
+    },
+    {
+      "id": "ch10",
+      "title": "Chapter 10. AI Engineering Architecture and User Feedback",
+      "file": "ch10.html",
+      "word_count": 12987,
+      "reading_time": 64,
+      "sections": [
+        {
+          "title": "AI Engineering Architecture",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Step 1. Enhance Context",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Step 2. Put in Guardrails",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Input guardrails",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Output guardrails",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Guardrail implementation",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Step 3. Add Model Router and Gateway",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Router",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Gateway",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Step 4. Reduce Latency with Caches",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Exact caching",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Warning",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Semantic caching",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Step 5. Add Agent Patterns",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Monitoring and Observability",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Monitoring Versus Observability",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Metrics",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Logs and traces",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Drift detection",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "AI Pipeline Orchestration",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            },
+            {
+              "title": "Warning",
+              "level": 2,
+              "id": "heading-7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "User Feedback",
+          "level": 1,
+          "id": "heading-7",
+          "children": [
+            {
+              "title": "Extracting Conversational Feedback",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Natural language feedback",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Early termination",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Error correction",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Complaints",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Sentiment",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Other conversational feedback",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "Regeneration",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Conversation organization",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Conversation length",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "Dialogue diversity",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Feedback Design",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "When to collect feedback",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": [
+                    {
+                      "title": "In the beginning",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "When something bad happens",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    },
+                    {
+                      "title": "When the model has low confidence",
+                      "level": 4,
+                      "id": "heading-7",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "How to collect feedback",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Feedback Limitations",
+              "level": 2,
+              "id": "heading-7",
+              "children": [
+                {
+                  "title": "Biases",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                },
+                {
+                  "title": "Degenerate feedback loop",
+                  "level": 3,
+                  "id": "heading-7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "level": 1,
+          "id": "heading-7",
+          "children": []
+        }
+      ],
+      "content_summary": {
+        "figures": 21,
+        "tables": 1,
+        "code_blocks": 2,
+        "headings": 43
+      }
+    }
+  ],
+  "global_cross_references": {
+    "figures": {},
+    "tables": {},
+    "chapters": {}
+  },
+  "search_index": {
+    "chapters": {},
+    "figures": {},
+    "tables": {}
+  },
+  "statistics": {
+    "total_word_count": 157371,
+    "total_reading_time": 783,
+    "total_figures": 161,
+    "total_tables": 48,
+    "total_code_blocks": 54
+  }
+}

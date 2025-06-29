@@ -1,0 +1,121 @@
+.figure {
+  margin: var(--spacing-xl) 0;
+  text-align: center;
+  scroll-margin-top: var(--spacing-xl);
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  border: 1px solid var(--customization-border-color, var(--color-border-light));
+  border-radius: var(--radius);
+  overflow: hidden;
+  background-color: var(--customization-bg-secondary, var(--color-bg-alt));
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity var(--transition-base);
+}
+
+.image.loading {
+  opacity: 0;
+}
+
+.image.loaded {
+  opacity: 1;
+}
+
+.placeholder,
+.errorPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 200px;
+  background-color: var(--customization-bg-secondary, var(--color-bg-alt));
+  color: var(--customization-text-muted, var(--color-text-muted));
+}
+
+.placeholderIcon,
+.errorIcon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.5;
+}
+
+.placeholderText,
+.errorText {
+  font-size: var(--font-size-sm);
+  text-align: center;
+}
+
+.errorPlaceholder {
+  border: 2px dashed var(--customization-border-color, var(--color-border));
+  background-color: var(--customization-bg-secondary, #fef2f2);
+  color: var(--customization-text-color, #dc2626);
+}
+
+.errorIcon {
+  opacity: 0.7;
+}
+
+.caption {
+  margin-top: var(--spacing-md);
+  padding: 0 var(--spacing-md);
+  font-size: var(--customization-font-size, var(--font-size-sm));
+  line-height: var(--customization-line-height, var(--line-height-base));
+  color: var(--customization-text-secondary, var(--color-text-light));
+  text-align: left;
+  max-width: 100%;
+  font-family: var(--customization-font-family, inherit);
+}
+
+.captionLabel {
+  font-weight: 600;
+  color: var(--customization-text-color, var(--color-text));
+  margin-right: var(--spacing-xs);
+}
+
+.captionText {
+  font-weight: normal;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .figure {
+    margin: var(--spacing-lg) 0;
+  }
+  
+  .imageContainer {
+    border-radius: var(--radius-sm);
+  }
+  
+  .placeholder,
+  .errorPlaceholder {
+    min-height: 150px;
+    padding: var(--spacing-lg);
+  }
+  
+  .placeholderIcon,
+  .errorIcon {
+    font-size: 2rem;
+  }
+  
+  .caption {
+    padding: 0 var(--spacing-sm);
+    font-size: 13px;
+  }
+}
+
+/* High-resolution display adjustments */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .image {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}

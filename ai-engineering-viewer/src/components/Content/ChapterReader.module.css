@@ -1,0 +1,176 @@
+.container {
+  position: relative;
+  max-width: var(--customization-content-width-px, var(--content-max-width));
+  margin: 0 auto;
+  padding: 0 var(--customization-margin-horizontal, 0);
+  background: var(--customization-background-texture, none);
+}
+
+.progressBar {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-width);
+  right: 0;
+  height: 3px;
+  background-color: var(--color-border-light);
+  z-index: 50;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: var(--color-accent);
+  transition: width 0.1s ease-out;
+}
+
+.content {
+  font-family: var(--customization-font-family, var(--font-family-base));
+  font-size: var(--customization-font-size, var(--font-size-base));
+  font-weight: var(--customization-font-weight, normal);
+  line-height: var(--customization-line-height, var(--line-height-base));
+  letter-spacing: var(--customization-letter-spacing, 0);
+  text-align: var(--customization-text-align, left);
+  text-rendering: var(--customization-text-rendering, optimizeLegibility);
+  hyphens: var(--customization-hyphens, none);
+  color: var(--customization-text-color, var(--color-text));
+  background-color: var(--customization-bg-color, var(--color-bg));
+  text-shadow: var(--customization-text-shadow, none);
+  padding-bottom: var(--spacing-2xl);
+}
+
+.chapterNav {
+  border-top: 1px solid var(--color-border);
+  padding: var(--spacing-xl) 0;
+  margin-top: var(--spacing-2xl);
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+}
+
+.navButton:hover {
+  border-color: var(--color-accent);
+  background-color: var(--color-bg-alt);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+
+.navArrow {
+  font-size: var(--font-size-lg);
+  color: var(--color-accent);
+}
+
+.navText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.navButton:last-child .navText {
+  align-items: flex-end;
+}
+
+.navLabel {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.navChapter {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.navSpacer {
+  flex: 1;
+}
+
+.chapterMeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-lg);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border-light);
+}
+
+.wordCount,
+.readingTime,
+.progress {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.progress {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .progressBar {
+    left: 0;
+  }
+  
+  .container {
+    padding: 0;
+  }
+  
+  .navButtons {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+  
+  .navButton {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .navText {
+    align-items: center;
+  }
+  
+  .navButton:last-child .navText {
+    align-items: center;
+  }
+  
+  .chapterMeta {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .chapterMeta {
+    font-size: 12px;
+  }
+  
+  .navButton {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 13px;
+  }
+}

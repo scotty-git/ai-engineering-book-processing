@@ -1,0 +1,182 @@
+.notesSettings {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--customization-bg-color, var(--color-bg));
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid var(--customization-border-color, var(--color-border));
+}
+
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin: 0;
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--customization-text-muted, var(--color-text-muted));
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  border-radius: var(--radius);
+  transition: all var(--transition-fast);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton:hover {
+  background-color: var(--customization-border-color, var(--color-border));
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-lg);
+}
+
+.section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.sectionTitle {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  margin: 0 0 var(--spacing-lg) 0;
+  color: var(--customization-text-color, var(--color-text));
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--customization-border-color, var(--color-border));
+}
+
+.control {
+  margin-bottom: var(--spacing-lg);
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--customization-accent-color, var(--color-accent));
+}
+
+.label {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  margin-bottom: var(--spacing-sm);
+  color: var(--customization-text-color, var(--color-text));
+}
+
+.slider {
+  width: 100%;
+  height: 6px;
+  background: var(--customization-border-color, var(--color-border));
+  border-radius: 3px;
+  outline: none;
+  margin: var(--spacing-sm) 0;
+  accent-color: var(--customization-accent-color, var(--color-accent));
+}
+
+.sliderLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+  color: var(--customization-text-muted, var(--color-text-muted));
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.actionButton {
+  padding: var(--spacing-md) var(--spacing-lg);
+  border: 1px solid var(--customization-border-color, var(--color-border));
+  border-radius: var(--radius);
+  background: var(--customization-bg-color, var(--color-bg));
+  color: var(--customization-text-color, var(--color-text));
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: left;
+}
+
+.actionButton:hover {
+  background: var(--customization-accent-color, var(--color-accent));
+  color: white;
+  border-color: var(--customization-accent-color, var(--color-accent));
+}
+
+.dangerButton {
+  border-color: #e53e3e;
+  color: #e53e3e;
+}
+
+.dangerButton:hover {
+  background: #e53e3e;
+  color: white;
+  border-color: #e53e3e;
+}
+
+.stats {
+  background: var(--customization-bg-secondary, var(--color-bg-alt));
+  padding: var(--spacing-lg);
+  border-radius: var(--radius);
+  border: 1px solid var(--customization-border-color, var(--color-border));
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.stat:last-child {
+  margin-bottom: 0;
+}
+
+.statLabel {
+  font-size: var(--font-size-sm);
+  color: var(--customization-text-muted, var(--color-text-muted));
+}
+
+.statValue {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--customization-accent-color, var(--color-accent));
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .content {
+    padding: var(--spacing-md);
+  }
+  
+  .section {
+    margin-bottom: var(--spacing-xl);
+  }
+}

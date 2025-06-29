@@ -1,0 +1,961 @@
+/* Customization CSS - Applies user customization settings */
+
+/* Global body styling with customization */
+body {
+  font-family: var(--customization-font-family);
+  font-size: var(--customization-font-size);
+  font-weight: var(--customization-font-weight);
+  line-height: var(--customization-line-height);
+  letter-spacing: var(--customization-letter-spacing);
+  color: var(--customization-text-color);
+  background-color: var(--customization-bg-color);
+  background-image: var(--customization-background-texture), var(--customization-background-gradient);
+  text-rendering: var(--customization-text-rendering);
+  hyphens: var(--customization-hyphens);
+  text-shadow: var(--customization-text-shadow);
+}
+
+/* Custom text selection colors that match theme */
+::selection {
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.25);
+  color: var(--customization-text-color);
+}
+
+::-moz-selection {
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.25);
+  color: var(--customization-text-color);
+}
+
+/* Enhanced selection for content areas */
+.customized-content ::selection,
+.customized-content *::selection,
+article.customized-content ::selection,
+article.customized-content *::selection {
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.3);
+  color: var(--customization-text-color);
+}
+
+.customized-content ::-moz-selection,
+.customized-content *::-moz-selection,
+article.customized-content ::-moz-selection,
+article.customized-content *::-moz-selection {
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.3);
+  color: var(--customization-text-color);
+}
+
+/* Special selection styling for links */
+a::selection,
+.customized-content a::selection,
+article.customized-content a::selection {
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.4);
+  color: var(--customization-bg-color);
+}
+
+a::-moz-selection,
+.customized-content a::-moz-selection,
+article.customized-content a::-moz-selection {
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.4);
+  color: var(--customization-bg-color);
+}
+
+/* Enhanced focus ring styling for all interactive elements */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[role="button"]:focus,
+[tabindex]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--customization-accent-color),
+              0 0 0 4px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.2),
+              0 2px 8px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.15);
+  border-radius: 4px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Special focus styling for links in content */
+.customized-content a:focus,
+article.customized-content a:focus,
+[class*="content"] a:focus,
+[class*="paragraph"] a:focus {
+  outline: none;
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.12);
+  box-shadow: 0 0 0 2px var(--customization-accent-color),
+              0 0 0 4px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.2);
+  transform: translateY(-1px);
+  border-radius: 3px;
+}
+
+/* Focus styling for navigation elements */
+nav a:focus,
+aside a:focus,
+[class*="sidebar"] a:focus,
+[class*="navigation"] a:focus {
+  outline: none;
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.1);
+  box-shadow: 0 0 0 2px var(--customization-accent-color),
+              0 0 0 4px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.15);
+  border-radius: 4px;
+}
+
+/* Focus styling for form elements */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="color"]:focus,
+input[type="range"]:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--customization-accent-color);
+  box-shadow: 0 0 0 1px var(--customization-accent-color),
+              0 0 0 3px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.2);
+}
+
+/* Focus styling for checkboxes and radio buttons */
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--customization-bg-color),
+              0 0 0 4px var(--customization-accent-color),
+              0 0 0 6px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.2);
+}
+
+/* Focus-visible support for better UX (only show focus ring when navigating with keyboard) */
+button:focus:not(:focus-visible),
+input:focus:not(:focus-visible),
+select:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible),
+[role="button"]:focus:not(:focus-visible),
+[tabindex]:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:focus-visible {
+  box-shadow: 0 0 0 2px var(--customization-accent-color),
+              0 0 0 4px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.2),
+              0 2px 8px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.15);
+}
+
+/* Skip link styling for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--customization-accent-color);
+  color: var(--customization-bg-color);
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1000;
+  transition: top 0.2s ease-in-out;
+}
+
+.skip-link:focus {
+  top: 6px;
+  outline: none;
+  box-shadow: 0 0 0 2px var(--customization-bg-color),
+              0 0 0 4px var(--customization-accent-color);
+}
+
+/* Universal content wrapper - ensures all content inherits theme */
+.customized-content {
+  color: var(--customization-text-color);
+  font-family: var(--customization-font-family);
+  font-size: var(--customization-font-size);
+  line-height: var(--customization-line-height);
+  text-shadow: var(--customization-text-shadow);
+}
+
+.customized-content *,
+.customized-content h1,
+.customized-content h2,
+.customized-content h3,
+.customized-content h4,
+.customized-content h5,
+.customized-content h6,
+.customized-content p,
+.customized-content li,
+.customized-content td,
+.customized-content th,
+.customized-content span,
+.customized-content div {
+  color: inherit !important;
+  font-family: inherit;
+}
+
+.customized-content a {
+  color: var(--customization-accent-color) !important;
+}
+
+.customized-content a:hover {
+  color: var(--customization-accent-hover) !important;
+}
+
+/* High-specificity rules to ensure theme colors override defaults */
+article.customized-content,
+article.customized-content *,
+.customized-content article,
+.customized-content article * {
+  color: var(--customization-text-color) !important;
+}
+
+article.customized-content h1,
+article.customized-content h2,
+article.customized-content h3,
+article.customized-content h4,
+article.customized-content h5,
+article.customized-content h6,
+.customized-content h1,
+.customized-content h2,
+.customized-content h3,
+.customized-content h4,
+.customized-content h5,
+.customized-content h6 {
+  color: var(--customization-text-color) !important;
+  font-family: var(--customization-font-family) !important;
+}
+
+article.customized-content a,
+.customized-content a {
+  color: var(--customization-accent-color) !important;
+}
+
+article.customized-content a:hover,
+.customized-content a:hover {
+  color: var(--customization-accent-hover) !important;
+}
+
+/* Ensure table content is themed */
+.customized-content table,
+.customized-content table *,
+article.customized-content table,
+article.customized-content table * {
+  color: var(--customization-text-color) !important;
+  border-color: var(--customization-border-color) !important;
+}
+
+.customized-content th,
+article.customized-content th {
+  background-color: var(--customization-bg-secondary) !important;
+}
+
+/* Ensure list content is themed */
+.customized-content ul,
+.customized-content ol,
+.customized-content li,
+article.customized-content ul,
+article.customized-content ol,
+article.customized-content li {
+  color: var(--customization-text-color) !important;
+}
+
+/* Override global CSS with high specificity */
+body .customized-content,
+body .customized-content *,
+body .customized-content p,
+body .customized-content div,
+body .customized-content span,
+body article.customized-content,
+body article.customized-content *,
+body article.customized-content p,
+body article.customized-content div,
+body article.customized-content span {
+  color: var(--customization-text-color) !important;
+  font-family: var(--customization-font-family) !important;
+}
+
+/* Ensure paragraphs specifically inherit theme colors */
+body .customized-content p,
+body article.customized-content p,
+.customized-content .paragraph p,
+article.customized-content .paragraph p {
+  color: var(--customization-text-color) !important;
+  line-height: var(--customization-line-height) !important;
+}
+
+/* Ensure all text elements inherit theme colors */
+body .customized-content em,
+body .customized-content strong,
+body .customized-content i,
+body .customized-content b,
+body article.customized-content em,
+body article.customized-content strong,
+body article.customized-content i,
+body article.customized-content b {
+  color: inherit !important;
+}
+
+/* Ultimate fallback - ensure ALL elements within content areas are themed */
+[class*="content"] *,
+[class*="paragraph"] *,
+[class*="heading"] *,
+article *,
+.customized-content *,
+body .customized-content *,
+html body .customized-content *,
+html body article.customized-content *,
+html body [class*="content"] *,
+html body [class*="paragraph"] *,
+html body [class*="heading"] * {
+  color: var(--customization-text-color) !important;
+}
+
+/* Enhanced link styling with smooth transitions */
+[class*="content"] a,
+[class*="paragraph"] a,
+[class*="heading"] a,
+article a,
+.customized-content a,
+body .customized-content a,
+html body .customized-content a,
+html body article.customized-content a,
+html body [class*="content"] a,
+html body [class*="paragraph"] a,
+html body [class*="heading"] a {
+  color: var(--customization-accent-color) !important;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px;
+  padding: 1px 2px;
+  margin: -1px -2px;
+}
+
+/* Subtle underline effect */
+[class*="content"] a::after,
+[class*="paragraph"] a::after,
+[class*="heading"] a::after,
+article a::after,
+.customized-content a::after,
+body .customized-content a::after,
+html body .customized-content a::after,
+html body article.customized-content a::after,
+html body [class*="content"] a::after,
+html body [class*="paragraph"] a::after,
+html body [class*="heading"] a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background-color: var(--customization-accent-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(-50%);
+}
+
+/* Enhanced hover states for links */
+[class*="content"] a:hover,
+[class*="paragraph"] a:hover,
+[class*="heading"] a:hover,
+article a:hover,
+.customized-content a:hover,
+body .customized-content a:hover,
+html body .customized-content a:hover,
+html body article.customized-content a:hover,
+html body [class*="content"] a:hover,
+html body [class*="paragraph"] a:hover,
+html body [class*="heading"] a:hover {
+  color: var(--customization-accent-hover) !important;
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.08);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.15);
+}
+
+/* Underline animation on hover */
+[class*="content"] a:hover::after,
+[class*="paragraph"] a:hover::after,
+[class*="heading"] a:hover::after,
+article a:hover::after,
+.customized-content a:hover::after,
+body .customized-content a:hover::after,
+html body .customized-content a:hover::after,
+html body article.customized-content a:hover::after,
+html body [class*="content"] a:hover::after,
+html body [class*="paragraph"] a:hover::after,
+html body [class*="heading"] a:hover::after {
+  width: 100%;
+  background-color: var(--customization-accent-hover);
+}
+
+/* Active state for links */
+[class*="content"] a:active,
+[class*="paragraph"] a:active,
+[class*="heading"] a:active,
+article a:active,
+.customized-content a:active,
+body .customized-content a:active,
+html body .customized-content a:active,
+html body article.customized-content a:active,
+html body [class*="content"] a:active,
+html body [class*="paragraph"] a:active,
+html body [class*="heading"] a:active {
+  color: var(--customization-accent-active) !important;
+  transform: translateY(0);
+  background-color: rgba(var(--customization-accent-rgb, 49, 130, 206), 0.12);
+}
+
+/* SIDEBAR AND NAVIGATION THEMING */
+/* Ensure all sidebar elements inherit theme colors */
+aside *,
+nav *,
+[class*="sidebar"] *,
+[class*="navigation"] *,
+[class*="nav"] *,
+body aside *,
+body nav *,
+body [class*="sidebar"] *,
+body [class*="navigation"] *,
+body [class*="nav"] *,
+html body aside *,
+html body nav *,
+html body [class*="sidebar"] *,
+html body [class*="navigation"] *,
+html body [class*="nav"] * {
+  color: var(--customization-text-color) !important;
+  font-family: var(--customization-font-family) !important;
+}
+
+/* Sidebar buttons and interactive elements */
+aside button,
+nav button,
+[class*="sidebar"] button,
+[class*="navigation"] button,
+[class*="nav"] button,
+body aside button,
+body nav button,
+body [class*="sidebar"] button,
+body [class*="navigation"] button,
+body [class*="nav"] button {
+  color: var(--customization-text-color) !important;
+  font-family: var(--customization-font-family) !important;
+}
+
+/* Sidebar titles and headings */
+aside h1,
+aside h2,
+aside h3,
+nav h1,
+nav h2,
+nav h3,
+[class*="sidebar"] h1,
+[class*="sidebar"] h2,
+[class*="sidebar"] h3,
+[class*="navigation"] h1,
+[class*="navigation"] h2,
+[class*="navigation"] h3,
+body aside h1,
+body aside h2,
+body aside h3,
+body nav h1,
+body nav h2,
+body nav h3,
+body [class*="sidebar"] h1,
+body [class*="sidebar"] h2,
+body [class*="sidebar"] h3 {
+  color: var(--customization-text-color) !important;
+  font-family: var(--customization-font-family) !important;
+}
+
+/* Sidebar muted text elements */
+aside [class*="muted"],
+aside [class*="meta"],
+aside [class*="stats"],
+nav [class*="muted"],
+nav [class*="meta"],
+nav [class*="stats"],
+[class*="sidebar"] [class*="muted"],
+[class*="sidebar"] [class*="meta"],
+[class*="sidebar"] [class*="stats"] {
+  color: var(--customization-text-muted) !important;
+  font-family: var(--customization-font-family) !important;
+}
+
+/* Content area customization */
+.content-area {
+  max-width: var(--customization-content-width);
+  margin-left: var(--customization-margin-horizontal);
+  margin-right: var(--customization-margin-horizontal);
+  text-align: var(--customization-text-align);
+}
+
+/* Paragraph customization */
+.content-paragraph {
+  margin-bottom: var(--customization-paragraph-spacing);
+  text-indent: var(--customization-paragraph-indent);
+}
+
+/* Drop caps styling - COMPLETELY DISABLED */
+/*
+.content-paragraph.has-drop-caps::first-letter {
+  display: var(--customization-drop-caps-display);
+  float: left;
+  font-size: 3.5em;
+  line-height: 0.8;
+  margin: 0.1em 0.1em 0 0;
+  font-weight: bold;
+  color: var(--customization-accent-color);
+}
+*/
+
+/* FORCE DISABLE ALL FIRST-LETTER STYLING */
+*::first-letter,
+*:first-letter,
+p::first-letter,
+p:first-letter,
+div::first-letter,
+div:first-letter,
+.paragraph::first-letter,
+.paragraph:first-letter,
+.paragraph p::first-letter,
+.paragraph p:first-letter,
+.customized-content::first-letter,
+.customized-content:first-letter,
+.customized-content *::first-letter,
+.customized-content *:first-letter,
+.customized-content p::first-letter,
+.customized-content p:first-letter,
+article.customized-content::first-letter,
+article.customized-content:first-letter,
+article.customized-content *::first-letter,
+article.customized-content *:first-letter,
+article.customized-content p::first-letter,
+article.customized-content p:first-letter,
+body .customized-content::first-letter,
+body .customized-content:first-letter,
+body .customized-content *::first-letter,
+body .customized-content *:first-letter,
+body .customized-content p::first-letter,
+body .customized-content p:first-letter,
+html body .customized-content::first-letter,
+html body .customized-content:first-letter,
+html body .customized-content *::first-letter,
+html body .customized-content *:first-letter,
+html body .customized-content p::first-letter,
+html body .customized-content p:first-letter {
+  float: none !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: inherit !important;
+  display: inline !important;
+  text-transform: none !important;
+  font-family: inherit !important;
+}
+
+/* Heading customization */
+.content-heading {
+  color: var(--customization-text-primary);
+  font-family: var(--customization-font-family);
+  letter-spacing: var(--customization-heading-letter-spacing);
+  text-shadow: var(--customization-text-shadow);
+}
+
+/* Apply heading letter spacing to all heading elements */
+h1, h2, h3, h4, h5, h6,
+.customized-content h1,
+.customized-content h2,
+.customized-content h3,
+.customized-content h4,
+.customized-content h5,
+.customized-content h6,
+article.customized-content h1,
+article.customized-content h2,
+article.customized-content h3,
+article.customized-content h4,
+article.customized-content h5,
+article.customized-content h6 {
+  letter-spacing: var(--customization-heading-letter-spacing) !important;
+}
+
+/* Enhanced Blockquote Styling */
+blockquote,
+.customized-content blockquote,
+article.customized-content blockquote,
+body .customized-content blockquote,
+html body .customized-content blockquote,
+.fallback blockquote {
+  position: relative;
+  margin: var(--spacing-xl) 0;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.03) 0%,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.01) 100%
+  );
+  border-left: 4px solid var(--customization-accent-color);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic;
+  font-size: calc(var(--customization-font-size, 18px) * 1.1);
+  line-height: calc(var(--customization-line-height, 1.6) * 1.1);
+  color: var(--customization-text-color) !important;
+  box-shadow: 0 2px 8px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Quote mark styling */
+blockquote::before,
+.customized-content blockquote::before,
+article.customized-content blockquote::before,
+body .customized-content blockquote::before,
+html body .customized-content blockquote::before,
+.fallback blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 4em;
+  font-weight: 700;
+  color: var(--customization-accent-color);
+  opacity: 0.3;
+  line-height: 1;
+  font-family: Georgia, serif;
+}
+
+/* Hover effect for blockquotes */
+blockquote:hover,
+.customized-content blockquote:hover,
+article.customized-content blockquote:hover,
+body .customized-content blockquote:hover,
+html body .customized-content blockquote:hover,
+.fallback blockquote:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.15);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.05) 0%,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.02) 100%
+  );
+}
+
+/* Blockquote paragraphs */
+blockquote p,
+.customized-content blockquote p,
+article.customized-content blockquote p,
+body .customized-content blockquote p,
+html body .customized-content blockquote p,
+.fallback blockquote p {
+  margin: 0 0 var(--spacing-sm) 0 !important;
+  color: inherit !important;
+  font-style: inherit;
+}
+
+blockquote p:last-child,
+.customized-content blockquote p:last-child,
+article.customized-content blockquote p:last-child,
+body .customized-content blockquote p:last-child,
+html body .customized-content blockquote p:last-child,
+.fallback blockquote p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Citation and attribution styling */
+blockquote cite,
+blockquote footer,
+.customized-content blockquote cite,
+.customized-content blockquote footer,
+article.customized-content blockquote cite,
+article.customized-content blockquote footer,
+body .customized-content blockquote cite,
+body .customized-content blockquote footer,
+html body .customized-content blockquote cite,
+html body .customized-content blockquote footer,
+.fallback blockquote cite,
+.fallback blockquote footer {
+  display: block;
+  margin-top: var(--spacing-md);
+  font-style: normal;
+  font-size: calc(var(--customization-font-size, 18px) * 0.9);
+  color: var(--customization-text-muted, var(--color-text-muted)) !important;
+  text-align: right;
+  position: relative;
+}
+
+blockquote cite::before,
+blockquote footer::before,
+.customized-content blockquote cite::before,
+.customized-content blockquote footer::before,
+article.customized-content blockquote cite::before,
+article.customized-content blockquote footer::before,
+body .customized-content blockquote cite::before,
+body .customized-content blockquote footer::before,
+html body .customized-content blockquote cite::before,
+html body .customized-content blockquote footer::before,
+.fallback blockquote cite::before,
+.fallback blockquote footer::before {
+  content: '— ';
+  color: var(--customization-accent-color);
+  font-weight: 500;
+}
+
+/* Pull quotes (larger, centered blockquotes) */
+blockquote.pullquote,
+.customized-content blockquote.pullquote,
+article.customized-content blockquote.pullquote,
+body .customized-content blockquote.pullquote,
+html body .customized-content blockquote.pullquote,
+.fallback blockquote.pullquote {
+  font-size: calc(var(--customization-font-size, 18px) * 1.3);
+  text-align: center;
+  border-left: none;
+  border-top: 3px solid var(--customization-accent-color);
+  border-bottom: 3px solid var(--customization-accent-color);
+  padding: var(--spacing-xl) var(--spacing-lg);
+  margin: calc(var(--spacing-xl) * 1.5) auto;
+  max-width: 80%;
+  background: linear-gradient(
+    180deg,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.02) 0%,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.05) 50%,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.02) 100%
+  );
+  border-radius: var(--radius);
+}
+
+blockquote.pullquote::before,
+.customized-content blockquote.pullquote::before,
+article.customized-content blockquote.pullquote::before,
+body .customized-content blockquote.pullquote::before,
+html body .customized-content blockquote.pullquote::before,
+.fallback blockquote.pullquote::before {
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 5em;
+  opacity: 0.2;
+}
+
+/* Mobile responsive blockquote styles */
+@media (max-width: 768px) {
+  blockquote,
+  .customized-content blockquote,
+  article.customized-content blockquote,
+  body .customized-content blockquote,
+  html body .customized-content blockquote,
+  .fallback blockquote {
+    margin: var(--spacing-lg) 0;
+    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: var(--customization-font-size, 18px);
+  }
+
+  blockquote::before,
+  .customized-content blockquote::before,
+  article.customized-content blockquote::before,
+  body .customized-content blockquote::before,
+  html body .customized-content blockquote::before,
+  .fallback blockquote::before {
+    font-size: 3em;
+    top: -5px;
+    left: 5px;
+  }
+
+  blockquote.pullquote,
+  .customized-content blockquote.pullquote,
+  article.customized-content blockquote.pullquote,
+  body .customized-content blockquote.pullquote,
+  html body .customized-content blockquote.pullquote,
+  .fallback blockquote.pullquote {
+    font-size: calc(var(--customization-font-size, 18px) * 1.1);
+    padding: var(--spacing-lg) var(--spacing-md);
+    margin: var(--spacing-xl) var(--spacing-sm);
+    max-width: 95%;
+  }
+
+  blockquote.pullquote::before,
+  .customized-content blockquote.pullquote::before,
+  article.customized-content blockquote.pullquote::before,
+  body .customized-content blockquote.pullquote::before,
+  html body .customized-content blockquote.pullquote::before,
+  .fallback blockquote.pullquote::before {
+    font-size: 4em;
+    top: -15px;
+  }
+
+  /* Disable hover effects on mobile */
+  blockquote:hover,
+  .customized-content blockquote:hover,
+  article.customized-content blockquote:hover,
+  body .customized-content blockquote:hover,
+  html body .customized-content blockquote:hover,
+  .fallback blockquote:hover {
+    transform: none;
+  }
+}
+
+/* Enhanced inline quote styling */
+q,
+.customized-content q,
+article.customized-content q,
+body .customized-content q,
+html body .customized-content q,
+.fallback q {
+  font-style: italic;
+  color: var(--customization-text-color) !important;
+  position: relative;
+  padding: 0 0.2em;
+}
+
+q::before,
+.customized-content q::before,
+article.customized-content q::before,
+body .customized-content q::before,
+html body .customized-content q::before,
+.fallback q::before {
+  content: '"';
+  color: var(--customization-accent-color);
+  font-weight: 500;
+}
+
+q::after,
+.customized-content q::after,
+article.customized-content q::after,
+body .customized-content q::after,
+html body .customized-content q::after,
+.fallback q::after {
+  content: '"';
+  color: var(--customization-accent-color);
+  font-weight: 500;
+}
+
+/* Sidebar customization */
+.sidebar {
+  background-color: var(--customization-sidebar-bg-color);
+  opacity: var(--customization-sidebar-opacity);
+  border-right: var(--customization-border-style);
+}
+
+/* Link customization */
+.content-link {
+  color: var(--customization-accent-primary);
+}
+
+.content-link:hover {
+  color: var(--customization-accent-hover);
+}
+
+.content-link:active {
+  color: var(--customization-accent-active);
+}
+
+/* Figure customization */
+.content-figure {
+  margin: var(--customization-paragraph-spacing) 0;
+}
+
+.figure-caption {
+  color: var(--customization-text-secondary);
+  font-size: calc(var(--customization-font-size) * 0.9);
+}
+
+/* Code block customization */
+.content-code {
+  font-family: var(--customization-font-family);
+  background-color: var(--customization-bg-secondary);
+  border: var(--customization-border-style);
+}
+
+/* Table customization */
+.content-table {
+  border-collapse: collapse;
+  border: var(--customization-border-style);
+}
+
+.content-table th,
+.content-table td {
+  border: var(--customization-border-style);
+  padding: calc(var(--customization-paragraph-spacing) * 0.5);
+}
+
+.content-table th {
+  background-color: var(--customization-bg-secondary);
+  color: var(--customization-text-primary);
+  font-weight: var(--customization-font-weight);
+}
+
+/* Overlay customization */
+.overlay {
+  background-color: rgba(0, 0, 0, var(--customization-overlay-opacity));
+}
+
+/* Responsive adjustments for customization */
+@media (max-width: 768px) {
+  .content-area {
+    margin-left: calc(var(--customization-margin-horizontal) * 0.5);
+    margin-right: calc(var(--customization-margin-horizontal) * 0.5);
+  }
+
+  /* Drop caps responsive styling - DISABLED */
+  /*
+  .content-paragraph.has-drop-caps::first-letter {
+    font-size: 2.5em;
+  }
+  */
+}
+
+/* Text alignment variations */
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+/* Font weight variations */
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+/* Content width variations */
+.content-width-narrow {
+  max-width: 600px;
+}
+
+.content-width-medium {
+  max-width: 800px;
+}
+
+.content-width-wide {
+  max-width: 1000px;
+}
+
+.content-width-full {
+  max-width: 100%;
+}
+
+/* Paragraph spacing variations */
+.paragraph-spacing-compact {
+  margin-bottom: 0.75rem;
+}
+
+.paragraph-spacing-normal {
+  margin-bottom: 1rem;
+}
+
+.paragraph-spacing-relaxed {
+  margin-bottom: 1.5rem;
+}

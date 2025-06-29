@@ -1,0 +1,346 @@
+.settingsPanel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(135deg,
+    var(--customization-bg-color, var(--color-bg)) 0%,
+    color-mix(in srgb, var(--customization-bg-color, var(--color-bg)) 98%, var(--customization-accent-color, var(--color-accent)) 2%) 100%);
+}
+
+.tabNav {
+  display: flex;
+  background: var(--customization-bg-color, var(--color-bg));
+  border-bottom: 1px solid var(--customization-border-color, var(--color-border-light));
+  padding: var(--spacing-md) var(--spacing-lg) 0;
+  gap: var(--spacing-xs);
+  position: relative;
+}
+
+.tabNav::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: var(--spacing-lg);
+  right: var(--spacing-lg);
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--customization-border-color, var(--color-border-light)) 20%,
+    var(--customization-border-color, var(--color-border-light)) 80%,
+    transparent 100%);
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  color: var(--customization-text-muted, var(--color-text-muted));
+  position: relative;
+  min-width: 100px;
+}
+
+.tab::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background: var(--customization-accent-color, var(--color-accent));
+  transition: all var(--transition-base);
+  transform: translateX(-50%);
+  border-radius: 2px 2px 0 0;
+}
+
+.tab:hover {
+  background: linear-gradient(135deg,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.05) 0%,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.02) 100%);
+  color: var(--customization-text-color, var(--color-text));
+  transform: translateY(-2px);
+}
+
+.tab:hover::before {
+  width: 30%;
+  opacity: 0.5;
+}
+
+.tab.active {
+  background: linear-gradient(135deg,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.1) 0%,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.05) 100%);
+  color: var(--customization-accent-color, var(--color-accent));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.15);
+}
+
+.tab.active::before {
+  width: 80%;
+  opacity: 1;
+}
+
+.tabIcon {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+  transition: all var(--transition-base);
+}
+
+.tab:hover .tabIcon {
+  transform: scale(1.1);
+}
+
+.tab.active .tabIcon {
+  transform: scale(1.15);
+}
+
+.tabLabel {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all var(--transition-base);
+}
+
+.tabContent {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 55vh;
+  padding: var(--spacing-xl);
+  background: var(--customization-bg-color, var(--color-bg));
+}
+
+/* Enhanced scrollbar for tab content */
+.tabContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tabContent::-webkit-scrollbar-track {
+  background: var(--customization-bg-secondary, var(--color-bg-alt));
+  border-radius: 4px;
+}
+
+.tabContent::-webkit-scrollbar-thumb {
+  background: var(--customization-border-color, var(--color-border));
+  border-radius: 4px;
+  transition: background var(--transition-fast);
+}
+
+.tabContent::-webkit-scrollbar-thumb:hover {
+  background: var(--customization-accent-color, var(--color-accent));
+}
+
+.actions {
+  padding: var(--spacing-xl);
+  border-top: 1px solid var(--customization-border-color, var(--color-border-light));
+  background: linear-gradient(135deg,
+    var(--customization-bg-secondary, var(--color-bg-alt)) 0%,
+    color-mix(in srgb, var(--customization-bg-secondary, var(--color-bg-alt)) 95%, var(--customization-accent-color, var(--color-accent)) 5%) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.actionButton {
+  padding: var(--spacing-md) var(--spacing-2xl);
+  border: 2px solid transparent;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg,
+    #fee2e2 0%,
+    #fecaca 100%);
+  color: #dc2626;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.actionButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 100%);
+  transition: left 0.5s ease;
+}
+
+.actionButton:hover {
+  background: linear-gradient(135deg,
+    #fca5a5 0%,
+    #f87171 100%);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(220, 38, 38, 0.3);
+}
+
+.actionButton:hover::before {
+  left: 100%;
+}
+
+.resetButton {
+  /* Styles already applied above */
+}
+
+.presets {
+  padding: var(--spacing-xl);
+  border-top: 1px solid var(--customization-border-color, var(--color-border-light));
+  background: linear-gradient(135deg,
+    var(--customization-bg-color, var(--color-bg)) 0%,
+    color-mix(in srgb, var(--customization-bg-color, var(--color-bg)) 97%, var(--customization-accent-color, var(--color-accent)) 3%) 100%);
+}
+
+.presetsTitle {
+  margin: 0 0 var(--spacing-xl) 0;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--customization-text-color, var(--color-text));
+  text-align: center;
+  position: relative;
+}
+
+.presetsTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  width: 40px;
+  height: 3px;
+  background: var(--customization-accent-color, var(--color-accent));
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.presetButtons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.presetButton {
+  padding: var(--spacing-xl);
+  border: 2px solid var(--customization-border-color, var(--color-border));
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg,
+    var(--customization-bg-color, var(--color-bg)) 0%,
+    color-mix(in srgb, var(--customization-bg-color, var(--color-bg)) 95%, var(--customization-accent-color, var(--color-accent)) 5%) 100%);
+  color: var(--customization-text-color, var(--color-text));
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  justify-content: center;
+}
+
+.presetButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.1) 0%,
+    rgba(var(--customization-accent-rgb, 49, 130, 206), 0.05) 100%);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.presetButton:hover {
+  background: linear-gradient(135deg,
+    var(--customization-accent-color, var(--color-accent)) 0%,
+    color-mix(in srgb, var(--customization-accent-color, var(--color-accent)) 90%, black 10%) 100%);
+  color: white;
+  border-color: var(--customization-accent-color, var(--color-accent));
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(var(--customization-accent-rgb, 49, 130, 206), 0.3);
+}
+
+.presetButton:hover::before {
+  opacity: 1;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .tabNav {
+    overflow-x: auto;
+  }
+
+  .tab {
+    min-width: 80px;
+    padding: 0.5rem 0.25rem;
+  }
+
+  .tabIcon {
+    font-size: 1rem;
+  }
+
+  .tabLabel {
+    font-size: 11px;
+  }
+
+  .tabContent {
+    max-height: 50vh;
+  }
+
+  .actions {
+    padding: 0.75rem;
+  }
+
+  .presetButtons {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .presetButton {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.375rem;
+  }
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .presetButtons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Scrollbar styling for tab content */
+.tabContent::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tabContent::-webkit-scrollbar-track {
+  background: var(--color-bg-alt);
+}
+
+.tabContent::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+.tabContent::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
