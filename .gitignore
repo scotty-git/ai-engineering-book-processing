@@ -27,3 +27,9 @@ logs/
 
 # Markdown viewer (separate project)
 markdown-viewer/
+# Exclude large image files temporarily
+ai-engineering-viewer/public/extracted-content/images/
+extracted-content/images/
+*.png
+*.jpg
+*.jpeg
