@@ -35,6 +35,27 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
    - The initial request was genuinely ambiguous
    - You are about to ask for ANY permission or approval
 
+## 📋 End of Turn Format
+
+**Always end turns with this clear visual format:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ COMPLETED: [What was done]
+   - [Key achievement 1]
+   - [Key achievement 2]
+
+🎯 NEED FROM YOU: [Specific ask or "Nothing - all done!"]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Emoji meanings:**
+- ✅ Task completed successfully
+- 🎯 Specific action needed
+- ❓ Question or clarification needed
+- 🚧 Work in progress, blocked
+- ⚠️ Issue encountered
+- 💡 Suggestion or idea
+
 ## 🔔 CRITICAL: Ping Sound Requirements
 
 **Play ping sound ONLY when task is complete and you're stopping:**
