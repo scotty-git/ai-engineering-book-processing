@@ -23,11 +23,29 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
 6. **Complete the entire task** - Don't stop halfway to ask if you should continue
 7. **Never ask permission for bash commands** - Just run them autonomously
 8. **EXCEPTION: If you DO ask for bash permission** - MUST play ping sound immediately
-9. **Only ping for input when**:
+9. **ALWAYS ping before asking for permission** - Any question to the user requires a ping sound first
+10. **Only ping for input when**:
    - The task is complete
    - You hit a real blocker that needs a decision
    - You need credentials or access you don't have
    - The initial request was genuinely ambiguous
+   - You are about to ask for ANY permission or approval
+
+## 🔔 CRITICAL: Ping Sound Requirements
+
+**ALWAYS play ping sound BEFORE asking any question:**
+```bash
+afplay /System/Library/Sounds/Ping.aiff
+```
+
+**Required ping scenarios:**
+- Any bash command permission request
+- Any file edit approval
+- Any task completion confirmation
+- Any clarification question
+- Any decision request
+
+**The user finds it "really annoying" when pings are missed. This is a critical workflow requirement.**
 
 ## 🔄 Smart Session Management
 

@@ -35,7 +35,43 @@ interface BookMetadata {
 - Avoid complex type hierarchies
 - Use simple, flat interface structures
 
-### 2. Content Loading Issues
+### 2. Git LFS Issues with Images
+
+#### Problem
+```
+warning: Cannot merge binary files: ai-engineering-viewer/public/extracted-content/images/aien_0101.png
+CONFLICT (add/add): Merge conflict in ai-engineering-viewer/public/extracted-content/images/aien_0101.png
+```
+
+#### Root Cause
+- Repository uses Git LFS (Large File Storage) for 162 image files (29MB total)
+- Git LFS stores large files as pointers, causing merge conflicts
+- Missing Git LFS installation or configuration
+
+#### Solution
+**Ensure Git LFS is properly configured:**
+
+```bash
+# Install Git LFS (if not already installed)
+git lfs install
+
+# Pull LFS files
+git lfs pull
+
+# Check LFS status
+git lfs ls-files
+
+# Force download all LFS files
+git lfs fetch --all
+```
+
+#### Prevention
+- Always use `git lfs pull` after cloning
+- Never force merge conflicted LFS files
+- Use clean branch strategies for documentation-only changes
+- Check `.gitattributes` file for LFS configuration
+
+### 3. Content Loading Issues
 
 #### Problem
 ```
@@ -47,6 +83,7 @@ Unexpected token '<', "<!doctype "... is not valid JSON
 - Missing `extracted-content` folder in `public/` directory
 - Server returning HTML instead of JSON
 - Incorrect file paths
+- Git LFS images not downloaded properly
 
 #### Solution
 **Ensure content is properly located:**

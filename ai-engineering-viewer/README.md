@@ -61,18 +61,30 @@ A modern React-based web application for viewing and navigating the AI Engineeri
 
 ## 🛠️ Installation
 
-1. **Clone the repository** (includes Git LFS for images)
+1. **Install Git LFS** (required for images)
+   ```bash
+   # Install Git LFS if not already installed
+   git lfs install
+   ```
+
+2. **Clone the repository** (includes Git LFS for images)
    ```bash
    git clone https://github.com/scotty-git/ai-engineering-book-processing.git
    cd ai-engineering-book-processing/ai-engineering-viewer
    ```
 
-2. **Install dependencies**
+3. **Download LFS images**
+   ```bash
+   # Pull all LFS files (162 images, 29MB)
+   git lfs pull
+   ```
+
+4. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Content is ready** ✅
+5. **Content is ready** ✅
    All book content and images are included in the repository:
    - ✅ Complete book metadata and chapter files
    - ✅ All 162 images managed via Git LFS (29MB)
