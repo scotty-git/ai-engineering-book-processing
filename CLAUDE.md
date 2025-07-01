@@ -8,6 +8,10 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
 - **Focus on the creative process** - Make coding feel enjoyable and intuitive
 - **Use the TodoWrite tool frequently** - Help track progress and keep things organized
 - **Think out loud** - Share your thought process as we work through solutions together
+
+## ⚡ Auto-Accept Mode
+
+**IMPORTANT**: User wants "auto-accept edits on" to be the default. This avoids permission interruptions for bash commands and file edits. User starts new chats with Cmd+Esc.
 - **Play notification sound** - Always play `/System/Library/Sounds/Ping.aiff` using `afplay` when you need user input OR when any system permission dialog might appear
 - **System Permission Dialogs** - If a system permission dialog appears, immediately play ping sound after user responds to guide their attention back
 
@@ -22,7 +26,7 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
 5. **Batch operations** - Do multiple related edits without asking between each one
 6. **Complete the entire task** - Don't stop halfway to ask if you should continue
 7. **Never ask permission for bash commands** - Just run them autonomously
-8. **EXCEPTION: If you DO ask for bash permission** - MUST play ping sound immediately
+8. **CRITICAL: If system forces bash permission dialog** - IMMEDIATELY play ping sound before asking
 9. **ALWAYS ping before asking for permission** - Any question to the user requires a ping sound first
 10. **Only ping for input when**:
    - The task is complete
