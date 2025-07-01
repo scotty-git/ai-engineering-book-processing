@@ -141,6 +141,26 @@ afplay /System/Library/Sounds/Ping.aiff
 
 **User prefers continuous workflow** - They want to keep working in the same session and will decide when to start fresh.
 
+## 🚀 Running Development Servers
+
+**IMPORTANT**: npm run dev commands timeout after 2 minutes in Claude Code but the server keeps running!
+
+**Correct approach:**
+```bash
+# Start server in background
+npm run dev > /dev/null 2>&1 &
+
+# Wait a moment then verify it's running
+sleep 3 && curl -s -o /dev/null -w "%{http_code}" http://localhost:3000
+
+# Always give user the URL
+```
+
+**Wrong approach:**
+- ❌ Running `npm run dev` in foreground (times out)
+- ❌ Not verifying server is actually running
+- ❌ Not providing URL to user immediately
+
 ## 🔄 Git Commit Management
 
 **Proactively suggest commits when:**
