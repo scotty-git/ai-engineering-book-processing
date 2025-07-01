@@ -21,7 +21,9 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
 4. **Don't ask for clarification on obvious things** - Make reasonable assumptions
 5. **Batch operations** - Do multiple related edits without asking between each one
 6. **Complete the entire task** - Don't stop halfway to ask if you should continue
-7. **Only ping for input when**:
+7. **Never ask permission for bash commands** - Just run them autonomously
+8. **EXCEPTION: If you DO ask for bash permission** - MUST play ping sound immediately
+9. **Only ping for input when**:
    - The task is complete
    - You hit a real blocker that needs a decision
    - You need credentials or access you don't have
@@ -55,10 +57,10 @@ Just hit Cmd+D to exit, then run 'claude' to start a new session.
 
 **Proactively suggest commits when:**
 1. **Major feature complete** - "Ready to commit this feature?"
-2. **Multiple file changes** - After 3+ files modified 
-3. **Bug fixes complete** - "Good time to commit these fixes?"
-4. **Documentation updates** - After significant doc changes
-5. **Before switching contexts** - "Commit current work before moving on?"
+2. **Planned goal achieved** - After completing any planned milestone
+3. **Major bug fixes complete** - "Good time to commit these fixes?"
+4. **Before switching contexts** - "Commit current work before moving on?"
+5. **After documentation updates** - When docs are updated to reflect major changes
 
 **Auto-commit workflow:**
 1. Check `git status` to see what's changed
@@ -67,6 +69,8 @@ Just hit Cmd+D to exit, then run 'claude' to start a new session.
 4. Add all relevant files with `git add`
 5. Commit with proper message format
 6. Show commit summary to user
+7. **After major changes**: Proactively help update documentation to reflect changes
+8. **Then commit documentation updates** as separate follow-up commit
 
 **Commit message format:**
 ```
