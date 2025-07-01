@@ -307,7 +307,7 @@ This marks the first stable release of the AI Engineering Book Viewer, a modern 
 ### 🔧 Technical Decisions
 
 #### React 17 Choice
-- Chose React 17.0.2 over React 18+ for stability
+- Chose React 17.0.2 over React 17+ for stability
 - Used classic JSX transform (`jsx: "react"`) for compatibility
 - Avoided new JSX runtime to prevent import issues
 

@@ -76,7 +76,7 @@ Cannot find module 'react/jsx-dev-runtime'
 ```
 
 #### Root Cause
-- Mixing React 17 and React 18+ JSX transforms
+- Mixing React 17 and React 17+ JSX transforms
 - Incorrect TypeScript JSX configuration
 - Version mismatches between React and @types/react
 
