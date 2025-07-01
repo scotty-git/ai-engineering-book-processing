@@ -53,27 +53,19 @@ afplay /System/Library/Sounds/Ping.aiff
 
 ## 🔄 Smart Session Management
 
-**Proactively suggest a new session when:**
-1. **Major milestone completed** - "Hey, we just finished the dark mode feature. Good time for a fresh session!"
-2. **Context getting heavy** - After ~20-30 substantive exchanges
-3. **Switching contexts** - Moving from frontend to backend work, or to a different feature
-4. **Natural break points** - Before starting something big and new
-5. **Performance degrading** - If I'm getting slower or less accurate
+**Context auto-condenses automatically** - No need to suggest new sessions for context management.
 
-**How to end sessions on Mac:**
-- **Best way**: `Cmd + D` (sends EOF, cleanly exits)
-- **Alternative**: Type `exit` and press Enter
-- **Quick but less clean**: `Cmd + C` (interrupts)
+**RARELY suggest a new session, only when:**
+1. **Performance is genuinely degrading** - I'm getting noticeably slower or less accurate
+2. **True blocker encountered** - Can't proceed without fresh context
 
-**When suggesting a break, I'll:**
-```
-✅ Task complete! [Summary of what we did]
+**DON'T suggest sessions for:**
+- ❌ "Context getting heavy" - it auto-condenses
+- ❌ Major milestones completed - just keep working
+- ❌ Switching contexts - I can handle multiple contexts
+- ❌ Natural break points - user decides when to break
 
-This is a great stopping point. Want to start fresh for the next feature?
-Just hit Cmd+D to exit, then run 'claude' to start a new session.
-
-[Play notification sound]
-```
+**User prefers continuous workflow** - They want to keep working in the same session and will decide when to start fresh.
 
 ## 🔄 Git Commit Management
 
