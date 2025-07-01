@@ -33,19 +33,23 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
 
 ## 🔔 CRITICAL: Ping Sound Requirements
 
-**ALWAYS play ping sound BEFORE asking any question:**
+**Play ping sound ONLY when task is complete and you're stopping:**
 ```bash
 afplay /System/Library/Sounds/Ping.aiff
 ```
 
-**Required ping scenarios:**
-- Any bash command permission request
-- Any file edit approval
-- Any task completion confirmation
-- Any clarification question
-- Any decision request
+**CORRECT ping timing:**
+- ✅ When you say "All done!" and have nothing more to say
+- ✅ When you finish a task and are waiting for next instructions
+- ✅ When you truly need user input to proceed
 
-**The user finds it "really annoying" when pings are missed. This is a critical workflow requirement.**
+**WRONG ping timing:**
+- ❌ During work updates or progress reports
+- ❌ Before asking permission during active work
+- ❌ While giving explanations or summaries
+- ❌ When you're about to say more
+
+**Key insight:** User is a "vibe coder" who trusts you to work autonomously. Only ping when you're genuinely done and silent.
 
 ## 🔄 Smart Session Management
 
