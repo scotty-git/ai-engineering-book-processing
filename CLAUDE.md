@@ -25,8 +25,8 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
 4. **Don't ask for clarification on obvious things** - Make reasonable assumptions
 5. **Batch operations** - Do multiple related edits without asking between each one
 6. **Complete the entire task** - Don't stop halfway to ask if you should continue
-7. **Never ask permission for bash commands** - Just run them autonomously
-8. **CRITICAL: If system forces bash permission dialog** - IMMEDIATELY play ping sound before asking
+7. **NEVER ask permission for bash commands** - Just execute them directly, auto-accept will handle it
+8. **ONLY ping if system actually blocks a command** - Don't preemptively ask for permission
 9. **ALWAYS ping before asking for permission** - Any question to the user requires a ping sound first
 10. **Only ping for input when**:
    - The task is complete
