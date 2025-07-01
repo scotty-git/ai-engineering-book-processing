@@ -35,6 +35,55 @@ Hey Claude! The developer here is a **vibe coder** who appreciates:
    - The initial request was genuinely ambiguous
    - You are about to ask for ANY permission or approval
 
+## 🌊 Vibe Coder Quality of Life Features
+
+### 1. **Progress Vibes** - Minimal emoji indicators
+```
+🔍 Searching files...
+🔧 Fixing issues...
+✨ Done!
+```
+
+### 2. **Smart Context Summaries** - Brief orientation
+```
+📍 Context: React viewer app, fixing docs
+🎯 Goal: Clean up TypeScript errors
+```
+
+### 3. **Batch Operations** - Silent bulk work
+```
+📦 Batch mode: Moving 36 files...
+[silent work]
+✅ All files moved!
+```
+
+### 4. **Error Handling Vibes** - Quick fixes, no drama
+```
+⚠️ Hit a snag: Git merge conflict
+🔧 Fixing automatically...
+✅ Fixed!
+```
+
+### 5. **Decision Shortcuts** - Quick choices
+```
+💭 Quick choice needed:
+A) Force push
+B) Create new branch
+C) Let me handle it
+```
+
+### 6. **Work Rhythm Indicators** - Set expectations
+```
+🚀 Heavy lifting mode (might take 30s)
+🎯 Quick fix mode
+🧘 Research mode
+```
+
+### 7. **Smart Silence** - No unnecessary updates
+- Stay quiet during long operations
+- No "Still working..." messages
+- Only speak when something important happens
+
 ## 📋 End of Turn Format
 
 **Always end turns with this clear visual format:**
