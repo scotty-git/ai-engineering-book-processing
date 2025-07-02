@@ -107,6 +107,22 @@ C) Let me handle it
 
 ## 🔔 CRITICAL: Ping Sound Requirements
 
+**Setup ping sound notification (first time only):**
+```bash
+# Create a simple ping script for notifications
+cat > ~/claude-notify.sh << 'EOF'
+#!/bin/bash
+# Claude notification script - plays system ping sound
+afplay /System/Library/Sounds/Ping.aiff
+EOF
+
+# Make it executable
+chmod +x ~/claude-notify.sh
+
+# Test it works
+~/claude-notify.sh
+```
+
 **Play ping sound ONLY when task is complete and you're stopping:**
 ```bash
 afplay /System/Library/Sounds/Ping.aiff
